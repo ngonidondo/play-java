@@ -1,0 +1,40 @@
+New log file opened at Fri Aug 19 07:26:11 EDT 2016 by 759@Ngonis-MBP
+Taking next connection to: 49865
+New client attempting to connect on port: 49866-49865
+  Address = /192.168.31.103:49865
+This client on port 49866 has uuid ac2221a9-9650-4daf-b6e0-95ef0f577437 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-ac2221a9-9650-4daf-b6e0-95ef0f577437
+Taking next connection to: 49865
+New client attempting to connect on port: 49870-49865
+  Address = /192.168.31.103:49865
+Handshake exception on socket: 49870
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:189)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 49865
+New client attempting to connect on port: 49871-49865
+  Address = /192.168.31.103:49865
+This client on port 49871 has uuid fe8d7443-fd4d-4485-b007-aed00a325ee8 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-ac2221a9-9650-4daf-b6e0-95ef0f577437, play-fork-run-fe8d7443-fd4d-4485-b007-aed00a325ee8
+Taking next connection to: 49865
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 49865
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 49865
+Server socket closed java.net.SocketException: Socket closed
+Server socket thread exiting.
+1 clients open, will close them...
+All client sockets have been closed.
+Closing the 759@Ngonis-MBP logs at Fri Aug 19 07:37:39 EDT 2016, goodbye.

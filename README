@@ -1,0 +1,22 @@
+README
+
+The play-java project is a basic Address book meant to add, edit, delete, 
+and get a list of friends.
+	This project uses an in memory database. As a result of this in order
+ to run this application the first time the following script needs to be 
+ run on the in memory database:
+
+	create table friend (
+        email                         varchar(255) not null,
+        fname                         varchar(255),
+        lname                         varchar(255),
+        photo_url                     varchar(255),
+        constraint pk_friend primary key (email)"
+    );
+
+ As we are running this aplication in debug mode there should be a prompt 
+ allowing you to automatically appply the required Evolutions.
+
+The test cases for this application are AddressBookControllerTest.java and IntegrationTest.java
+
+This code can be ran using activator ui.

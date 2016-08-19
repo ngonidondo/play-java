@@ -1,0 +1,2021 @@
+New log file opened at Fri Aug 19 01:32:13 EDT 2016 by 15695@Ngonis-MBP
+jvm 15695@Ngonis-MBP
+jvm vmName=Java HotSpot(TM) 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.31-b07
+jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
+jvm arguments: [-Xms256m, -Xmx1024m, -XX:MetaspaceSize=64m, -XX:MaxMetaspaceSize=256m]
+Starting event engine
+Starting sbt command engine
+Waiting for sbt command engine
+Command engine arguments=List()
+Command engine baseDirectory=/Users/Rue/Documents/workspace/Ngoni
+Command engine initial remaining commands List(--initialize, onFailure load-failed, boot, server-send-ready-for-request, server-handle-next-server-request)
+> --initialize
+> initialize
+> onFailure load-failed
+> boot
+> reload
+[Loading] Scanning directory /Users/Rue/.sbt/0.13/plugins
+[Loading] Found non-root projects 
+[Loading] Done in /Users/Rue/.sbt/0.13/plugins, returning: ()
+deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))))
+  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.JUnitXmlReportPlugin)
+sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin) not found List(sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
+  :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+[Loading] Done in /Users/Rue/.sbt/0.13/plugins, returning: (global-plugins)
+Loading global plugins from /Users/Rue/.sbt/0.13/plugins
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@29c8b2d2, check cycles: false
+[debug] 
+[debug] Initial source changes: 
+[debug] 	removed:Set()
+[debug] 	added: Set()
+[debug] 	modified: Set()
+[debug] Removed products: Set()
+[debug] External API changes: API Changes: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated sources: Set()
+[debug] 
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set()
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+[debug] All initially invalidated sources: Set()
+All initially invalidated sources: Set()
+
+[debug] Copy resource mappings: 
+[debug] 	
+Copy resource mappings: 
+	
+[debug] Other repositories:
+Other repositories:
+[debug] Default repositories:
+Default repositories:
+[debug] Using inline dependencies specified in Scala.
+Using inline dependencies specified in Scala.
+[Loading] Scanning directory /Users/Rue/Documents/workspace/Ngoni/project
+[Loading] Found non-root projects 
+[Loading] Done in /Users/Rue/Documents/workspace/Ngoni/project, returning: ()
+deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(play.ebean.sbt.PlayEbean),Set(Atom(com.typesafe.play.sbt.enhancer.PlayEnhancer))), Clause(Atom(com.typesafe.play.sbt.enhancer.PlayEnhancer),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(play.sbt.Play),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging))), Clause(Atom(play.sbt.Play),Set(Atom(play.sbt.routes.RoutesCompiler))), Clause(Atom(play.sbt.Play),Set(Atom(play.twirl.sbt.SbtTwirl))), Clause(Atom(play.sbt.Play),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(play.sbt.PlayAkkaHttpServer),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.PlayJava),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.PlayLayoutPlugin),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.PlayLogback),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.PlayNettyServer),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.PlayScala),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.routes.RoutesCompiler),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(play.twirl.sbt.SbtTwirl),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.AkkaAppPackaging),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.windows.WindowsPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.docker.DockerPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))), Clause(Atom(com.typesafe.sbt.packager.archetypes.jar.ClasspathJarPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))), Clause(Atom(com.typesafe.sbt.packager.archetypes.jar.LauncherJarPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))), Clause(Atom(com.typesafe.sbt.packager.debian.DebianDeployPlugin),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin))), Clause(Atom(com.typesafe.sbt.packager.debian.DebianPlugin),Set(Atom(com.typesafe.sbt.packager.linux.LinuxPlugin))), Clause(Atom(com.typesafe.sbt.packager.debian.JDebPackaging),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin))), Clause(Atom(com.typesafe.sbt.packager.docker.DockerPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin))), Clause(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerDeployPlugin),Set(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerPlugin))), Clause(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))), Clause(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.jar.LauncherJarPlugin))), Clause(Atom(com.typesafe.sbt.packager.linux.LinuxPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin))), Clause(Atom(com.typesafe.sbt.packager.rpm.RpmDeployPlugin),Set(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin))), Clause(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin),Set(Atom(com.typesafe.sbt.packager.linux.LinuxPlugin))), Clause(Atom(com.typesafe.sbt.packager.universal.UniversalDeployPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin))), Clause(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin),Set(Atom(com.typesafe.sbt.SbtNativePackager))), Clause(Atom(com.typesafe.sbt.packager.windows.WindowsDeployPlugin),Set(Atom(com.typesafe.sbt.packager.windows.WindowsPlugin))), Clause(Atom(com.typesafe.sbt.packager.windows.WindowsPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin))), Clause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.typesafe.sbt.jse.SbtJsEngine),Set(Atom(com.typesafe.sbt.web.SbtWeb))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.jse.SbtJsEngine))), Clause(Atom(com.typesafe.sbt.coffeescript.SbtCoffeeScript),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(com.typesafe.play.sbt.enhancer.PlayEnhancer))), Clause(Atom(play.sbt.Play),Set(Atom(play.sbt.PlayLayoutPlugin))), Clause(Atom(play.sbt.Play),Set(Atom(play.sbt.PlayLogback))), Clause(Atom(play.sbt.Play),Set(Atom(play.sbt.PlayNettyServer))), Clause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(com.typesafe.sbt.jse.SbtJsEngine))), Clause(Atom(com.typesafe.sbt.jse.SbtJsEngine),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.coffeescript.SbtCoffeeScript)))))
+  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,com.typesafe.play.sbt.enhancer.PlayEnhancer,sbt.plugins.JUnitXmlReportPlugin)
+sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, com.typesafe.play.sbt.enhancer.PlayEnhancer, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin) not found List(sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, com.typesafe.play.sbt.enhancer.PlayEnhancer, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, com.typesafe.play.sbt.enhancer.PlayEnhancer, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(com.typesafe.play.sbt.enhancer.PlayEnhancer, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, com.typesafe.play.sbt.enhancer.PlayEnhancer, sbt.plugins.JUnitXmlReportPlugin) not found List()
+  :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, com.typesafe.play.sbt.enhancer.PlayEnhancer, sbt.plugins.JUnitXmlReportPlugin)
+[Loading] Done in /Users/Rue/Documents/workspace/Ngoni/project, returning: (ngoni-build)
+Loading project definition from /Users/Rue/Documents/workspace/Ngoni/project
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@29c8b2d2, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+[Loading] Scanning directory /Users/Rue/Documents/workspace/Ngoni
+[Loading] Found root project root w/ remaining 
+deducing auto plugins based on known facts Set(Atom(play.ebean.sbt.PlayEbean), Atom(play.sbt.PlayJava), Atom(com.typesafe.sbt.web.SbtWeb), Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(play.ebean.sbt.PlayEbean),Set(Atom(com.typesafe.play.sbt.enhancer.PlayEnhancer))), Clause(Atom(com.typesafe.play.sbt.enhancer.PlayEnhancer),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(play.sbt.Play),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging))), Clause(Atom(play.sbt.Play),Set(Atom(play.sbt.routes.RoutesCompiler))), Clause(Atom(play.sbt.Play),Set(Atom(play.twirl.sbt.SbtTwirl))), Clause(Atom(play.sbt.Play),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(play.sbt.PlayAkkaHttpServer),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.PlayJava),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.PlayLayoutPlugin),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.PlayLogback),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.PlayNettyServer),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.PlayScala),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.routes.RoutesCompiler),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(play.twirl.sbt.SbtTwirl),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.AkkaAppPackaging),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.windows.WindowsPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.docker.DockerPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))), Clause(Atom(com.typesafe.sbt.packager.archetypes.jar.ClasspathJarPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))), Clause(Atom(com.typesafe.sbt.packager.archetypes.jar.LauncherJarPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))), Clause(Atom(com.typesafe.sbt.packager.debian.DebianDeployPlugin),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin))), Clause(Atom(com.typesafe.sbt.packager.debian.DebianPlugin),Set(Atom(com.typesafe.sbt.packager.linux.LinuxPlugin))), Clause(Atom(com.typesafe.sbt.packager.debian.JDebPackaging),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin))), Clause(Atom(com.typesafe.sbt.packager.docker.DockerPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin))), Clause(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerDeployPlugin),Set(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerPlugin))), Clause(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))), Clause(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.jar.LauncherJarPlugin))), Clause(Atom(com.typesafe.sbt.packager.linux.LinuxPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin))), Clause(Atom(com.typesafe.sbt.packager.rpm.RpmDeployPlugin),Set(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin))), Clause(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin),Set(Atom(com.typesafe.sbt.packager.linux.LinuxPlugin))), Clause(Atom(com.typesafe.sbt.packager.universal.UniversalDeployPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin))), Clause(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin),Set(Atom(com.typesafe.sbt.SbtNativePackager))), Clause(Atom(com.typesafe.sbt.packager.windows.WindowsDeployPlugin),Set(Atom(com.typesafe.sbt.packager.windows.WindowsPlugin))), Clause(Atom(com.typesafe.sbt.packager.windows.WindowsPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin))), Clause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.jse.SbtJsEngine))), Clause(Atom(com.typesafe.sbt.coffeescript.SbtCoffeeScript),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(play.sbt.forkrun.PlayForkRun),Set(Atom(sbt.plugins.BackgroundRunPlugin))), Clause(Atom(play.sbt.forkrun.PlayForkRun),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.forkrun.PlayForkRun),Set(Atom(sbt.plugins.SerializersPlugin))), Clause(Atom(sbt.plugins.BackgroundRunPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.typesafe.sbt.less.SbtLess),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbt.jshint.SbtJSHint),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbt.rjs.SbtRjs),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbt.mocha.SbtMocha),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(com.typesafe.play.sbt.enhancer.PlayEnhancer))), Clause(Atom(play.sbt.Play),Set(Atom(play.sbt.PlayLayoutPlugin))), Clause(Atom(play.sbt.Play),Set(Atom(play.sbt.PlayLogback))), Clause(Atom(play.sbt.Play),Set(Atom(play.sbt.PlayNettyServer))), Clause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(com.typesafe.sbt.jse.SbtJsEngine))), Clause(Atom(com.typesafe.sbt.jse.SbtJsEngine),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.coffeescript.SbtCoffeeScript))), Clause(And(Set(Atom(sbt.plugins.BackgroundRunPlugin), Atom(play.sbt.Play), Atom(sbt.plugins.SerializersPlugin))),Set(Atom(play.sbt.forkrun.PlayForkRun))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.BackgroundRunPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.InteractionServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SendEventServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SerializersPlugin))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.less.SbtLess))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.jshint.SbtJSHint))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.rjs.SbtRjs))), Clause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(com.typesafe.sbt.digest.SbtDigest))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.mocha.SbtMocha))), Clause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(org.irundaia.sbt.sass.SbtSassify)))))
+  :: deduced result: Matched(sbt.plugins.CorePlugin,com.typesafe.sbt.web.SbtWeb,play.sbt.PlayJava,play.ebean.sbt.PlayEbean,org.irundaia.sbt.sass.SbtSassify,com.typesafe.sbt.digest.SbtDigest,sbt.plugins.JvmPlugin,com.typesafe.play.sbt.enhancer.PlayEnhancer,sbt.plugins.InteractionServicePlugin,sbt.plugins.SendEventServicePlugin,play.sbt.Play,sbt.plugins.SerializersPlugin,sbt.plugins.IvyPlugin,com.typesafe.sbt.jse.SbtJsEngine,com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging,play.twirl.sbt.SbtTwirl,play.sbt.PlayNettyServer,sbt.plugins.JUnitXmlReportPlugin,play.sbt.PlayLayoutPlugin,play.sbt.routes.RoutesCompiler,play.sbt.PlayLogback,com.typesafe.sbt.jse.SbtJsTask,sbt.plugins.BackgroundRunPlugin,com.typesafe.sbt.jshint.SbtJSHint,com.typesafe.sbt.packager.archetypes.JavaAppPackaging,com.typesafe.sbt.mocha.SbtMocha,com.typesafe.sbt.less.SbtLess,com.typesafe.sbt.rjs.SbtRjs,play.sbt.forkrun.PlayForkRun,com.typesafe.sbt.coffeescript.SbtCoffeeScript,com.typesafe.sbt.packager.rpm.RpmPlugin,com.typesafe.sbt.packager.debian.DebianPlugin,com.typesafe.sbt.packager.docker.DockerPlugin,com.typesafe.sbt.packager.windows.WindowsPlugin,com.typesafe.sbt.packager.universal.UniversalPlugin,com.typesafe.sbt.packager.linux.LinuxPlugin,com.typesafe.sbt.SbtNativePackager)
+sorting: ns: List(sbt.plugins.CorePlugin, com.typesafe.sbt.web.SbtWeb, play.sbt.PlayJava, play.ebean.sbt.PlayEbean, org.irundaia.sbt.sass.SbtSassify, com.typesafe.sbt.digest.SbtDigest, sbt.plugins.JvmPlugin, com.typesafe.play.sbt.enhancer.PlayEnhancer, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, play.sbt.Play, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging, play.twirl.sbt.SbtTwirl, play.sbt.PlayNettyServer, sbt.plugins.JUnitXmlReportPlugin, play.sbt.PlayLayoutPlugin, play.sbt.routes.RoutesCompiler, play.sbt.PlayLogback, com.typesafe.sbt.jse.SbtJsTask, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.jshint.SbtJSHint, com.typesafe.sbt.packager.archetypes.JavaAppPackaging, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, play.sbt.forkrun.PlayForkRun, com.typesafe.sbt.coffeescript.SbtCoffeeScript, com.typesafe.sbt.packager.rpm.RpmPlugin, com.typesafe.sbt.packager.debian.DebianPlugin, com.typesafe.sbt.packager.docker.DockerPlugin, com.typesafe.sbt.packager.windows.WindowsPlugin, com.typesafe.sbt.packager.universal.UniversalPlugin, com.typesafe.sbt.packager.linux.LinuxPlugin, com.typesafe.sbt.SbtNativePackager)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.SbtNativePackager) not found List(com.typesafe.sbt.web.SbtWeb, play.sbt.PlayJava, play.ebean.sbt.PlayEbean, org.irundaia.sbt.sass.SbtSassify, com.typesafe.sbt.digest.SbtDigest, sbt.plugins.JvmPlugin, com.typesafe.play.sbt.enhancer.PlayEnhancer, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, play.sbt.Play, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging, play.twirl.sbt.SbtTwirl, play.sbt.PlayNettyServer, sbt.plugins.JUnitXmlReportPlugin, play.sbt.PlayLayoutPlugin, play.sbt.routes.RoutesCompiler, play.sbt.PlayLogback, com.typesafe.sbt.jse.SbtJsTask, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.jshint.SbtJSHint, com.typesafe.sbt.packager.archetypes.JavaAppPackaging, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, play.sbt.forkrun.PlayForkRun, com.typesafe.sbt.coffeescript.SbtCoffeeScript, com.typesafe.sbt.packager.rpm.RpmPlugin, com.typesafe.sbt.packager.debian.DebianPlugin, com.typesafe.sbt.packager.docker.DockerPlugin, com.typesafe.sbt.packager.windows.WindowsPlugin, com.typesafe.sbt.packager.universal.UniversalPlugin, com.typesafe.sbt.packager.linux.LinuxPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.SbtNativePackager, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.packager.universal.UniversalPlugin) not found List(com.typesafe.sbt.web.SbtWeb, play.sbt.PlayJava, play.ebean.sbt.PlayEbean, org.irundaia.sbt.sass.SbtSassify, com.typesafe.sbt.digest.SbtDigest, sbt.plugins.JvmPlugin, com.typesafe.play.sbt.enhancer.PlayEnhancer, play.sbt.Play, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging, play.twirl.sbt.SbtTwirl, play.sbt.PlayNettyServer, sbt.plugins.JUnitXmlReportPlugin, play.sbt.PlayLayoutPlugin, play.sbt.routes.RoutesCompiler, play.sbt.PlayLogback, com.typesafe.sbt.jse.SbtJsTask, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.jshint.SbtJSHint, com.typesafe.sbt.packager.archetypes.JavaAppPackaging, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, play.sbt.forkrun.PlayForkRun, com.typesafe.sbt.coffeescript.SbtCoffeeScript, com.typesafe.sbt.packager.rpm.RpmPlugin, com.typesafe.sbt.packager.debian.DebianPlugin, com.typesafe.sbt.packager.docker.DockerPlugin, com.typesafe.sbt.packager.windows.WindowsPlugin, com.typesafe.sbt.packager.linux.LinuxPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.SbtNativePackager, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.packager.universal.UniversalPlugin, sbt.plugins.JvmPlugin, com.typesafe.sbt.packager.docker.DockerPlugin, com.typesafe.sbt.packager.windows.WindowsPlugin, com.typesafe.sbt.packager.linux.LinuxPlugin) not found List(com.typesafe.sbt.web.SbtWeb, play.sbt.PlayJava, play.ebean.sbt.PlayEbean, org.irundaia.sbt.sass.SbtSassify, com.typesafe.sbt.digest.SbtDigest, com.typesafe.play.sbt.enhancer.PlayEnhancer, play.sbt.Play, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging, play.twirl.sbt.SbtTwirl, play.sbt.PlayNettyServer, sbt.plugins.JUnitXmlReportPlugin, play.sbt.PlayLayoutPlugin, play.sbt.routes.RoutesCompiler, play.sbt.PlayLogback, com.typesafe.sbt.jse.SbtJsTask, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.jshint.SbtJSHint, com.typesafe.sbt.packager.archetypes.JavaAppPackaging, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, play.sbt.forkrun.PlayForkRun, com.typesafe.sbt.coffeescript.SbtCoffeeScript, com.typesafe.sbt.packager.rpm.RpmPlugin, com.typesafe.sbt.packager.debian.DebianPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.SbtNativePackager, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.packager.universal.UniversalPlugin, sbt.plugins.JvmPlugin, com.typesafe.sbt.packager.docker.DockerPlugin, com.typesafe.sbt.packager.windows.WindowsPlugin, com.typesafe.sbt.packager.linux.LinuxPlugin, com.typesafe.sbt.web.SbtWeb, com.typesafe.play.sbt.enhancer.PlayEnhancer, play.twirl.sbt.SbtTwirl, sbt.plugins.JUnitXmlReportPlugin, play.sbt.routes.RoutesCompiler, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.packager.rpm.RpmPlugin, com.typesafe.sbt.packager.debian.DebianPlugin) not found List(play.sbt.PlayJava, play.ebean.sbt.PlayEbean, org.irundaia.sbt.sass.SbtSassify, com.typesafe.sbt.digest.SbtDigest, play.sbt.Play, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging, play.sbt.PlayNettyServer, play.sbt.PlayLayoutPlugin, play.sbt.PlayLogback, com.typesafe.sbt.jse.SbtJsTask, com.typesafe.sbt.jshint.SbtJSHint, com.typesafe.sbt.packager.archetypes.JavaAppPackaging, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, play.sbt.forkrun.PlayForkRun, com.typesafe.sbt.coffeescript.SbtCoffeeScript)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.SbtNativePackager, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.packager.universal.UniversalPlugin, sbt.plugins.JvmPlugin, com.typesafe.sbt.packager.docker.DockerPlugin, com.typesafe.sbt.packager.windows.WindowsPlugin, com.typesafe.sbt.packager.linux.LinuxPlugin, com.typesafe.sbt.web.SbtWeb, com.typesafe.play.sbt.enhancer.PlayEnhancer, play.twirl.sbt.SbtTwirl, sbt.plugins.JUnitXmlReportPlugin, play.sbt.routes.RoutesCompiler, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.packager.rpm.RpmPlugin, com.typesafe.sbt.packager.debian.DebianPlugin, play.ebean.sbt.PlayEbean, org.irundaia.sbt.sass.SbtSassify, com.typesafe.sbt.digest.SbtDigest, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.packager.archetypes.JavaAppPackaging) not found List(play.sbt.PlayJava, play.sbt.Play, com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging, play.sbt.PlayNettyServer, play.sbt.PlayLayoutPlugin, play.sbt.PlayLogback, com.typesafe.sbt.jse.SbtJsTask, com.typesafe.sbt.jshint.SbtJSHint, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, play.sbt.forkrun.PlayForkRun, com.typesafe.sbt.coffeescript.SbtCoffeeScript)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.SbtNativePackager, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.packager.universal.UniversalPlugin, sbt.plugins.JvmPlugin, com.typesafe.sbt.packager.docker.DockerPlugin, com.typesafe.sbt.packager.windows.WindowsPlugin, com.typesafe.sbt.packager.linux.LinuxPlugin, com.typesafe.sbt.web.SbtWeb, com.typesafe.play.sbt.enhancer.PlayEnhancer, play.twirl.sbt.SbtTwirl, sbt.plugins.JUnitXmlReportPlugin, play.sbt.routes.RoutesCompiler, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.packager.rpm.RpmPlugin, com.typesafe.sbt.packager.debian.DebianPlugin, play.ebean.sbt.PlayEbean, org.irundaia.sbt.sass.SbtSassify, com.typesafe.sbt.digest.SbtDigest, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.packager.archetypes.JavaAppPackaging, com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging, com.typesafe.sbt.jse.SbtJsTask) not found List(play.sbt.PlayJava, play.sbt.Play, play.sbt.PlayNettyServer, play.sbt.PlayLayoutPlugin, play.sbt.PlayLogback, com.typesafe.sbt.jshint.SbtJSHint, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, play.sbt.forkrun.PlayForkRun, com.typesafe.sbt.coffeescript.SbtCoffeeScript)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.SbtNativePackager, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.packager.universal.UniversalPlugin, sbt.plugins.JvmPlugin, com.typesafe.sbt.packager.docker.DockerPlugin, com.typesafe.sbt.packager.windows.WindowsPlugin, com.typesafe.sbt.packager.linux.LinuxPlugin, com.typesafe.sbt.web.SbtWeb, com.typesafe.play.sbt.enhancer.PlayEnhancer, play.twirl.sbt.SbtTwirl, sbt.plugins.JUnitXmlReportPlugin, play.sbt.routes.RoutesCompiler, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.packager.rpm.RpmPlugin, com.typesafe.sbt.packager.debian.DebianPlugin, play.ebean.sbt.PlayEbean, org.irundaia.sbt.sass.SbtSassify, com.typesafe.sbt.digest.SbtDigest, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.packager.archetypes.JavaAppPackaging, com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging, com.typesafe.sbt.jse.SbtJsTask, play.sbt.Play, com.typesafe.sbt.jshint.SbtJSHint, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.coffeescript.SbtCoffeeScript) not found List(play.sbt.PlayJava, play.sbt.PlayNettyServer, play.sbt.PlayLayoutPlugin, play.sbt.PlayLogback, play.sbt.forkrun.PlayForkRun)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.SbtNativePackager, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.packager.universal.UniversalPlugin, sbt.plugins.JvmPlugin, com.typesafe.sbt.packager.docker.DockerPlugin, com.typesafe.sbt.packager.windows.WindowsPlugin, com.typesafe.sbt.packager.linux.LinuxPlugin, com.typesafe.sbt.web.SbtWeb, com.typesafe.play.sbt.enhancer.PlayEnhancer, play.twirl.sbt.SbtTwirl, sbt.plugins.JUnitXmlReportPlugin, play.sbt.routes.RoutesCompiler, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.packager.rpm.RpmPlugin, com.typesafe.sbt.packager.debian.DebianPlugin, play.ebean.sbt.PlayEbean, org.irundaia.sbt.sass.SbtSassify, com.typesafe.sbt.digest.SbtDigest, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.packager.archetypes.JavaAppPackaging, com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging, com.typesafe.sbt.jse.SbtJsTask, play.sbt.Play, com.typesafe.sbt.jshint.SbtJSHint, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.coffeescript.SbtCoffeeScript, play.sbt.PlayJava, play.sbt.PlayNettyServer, play.sbt.PlayLayoutPlugin, play.sbt.PlayLogback, play.sbt.forkrun.PlayForkRun) not found List()
+  :: sorted deduced result: List(sbt.plugins.CorePlugin, com.typesafe.sbt.SbtNativePackager, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.packager.universal.UniversalPlugin, sbt.plugins.JvmPlugin, com.typesafe.sbt.packager.docker.DockerPlugin, com.typesafe.sbt.packager.windows.WindowsPlugin, com.typesafe.sbt.packager.linux.LinuxPlugin, com.typesafe.sbt.web.SbtWeb, com.typesafe.play.sbt.enhancer.PlayEnhancer, play.twirl.sbt.SbtTwirl, sbt.plugins.JUnitXmlReportPlugin, play.sbt.routes.RoutesCompiler, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.packager.rpm.RpmPlugin, com.typesafe.sbt.packager.debian.DebianPlugin, play.ebean.sbt.PlayEbean, org.irundaia.sbt.sass.SbtSassify, com.typesafe.sbt.digest.SbtDigest, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.packager.archetypes.JavaAppPackaging, com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging, com.typesafe.sbt.jse.SbtJsTask, play.sbt.Play, com.typesafe.sbt.jshint.SbtJSHint, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.coffeescript.SbtCoffeeScript, play.sbt.PlayJava, play.sbt.PlayNettyServer, play.sbt.PlayLayoutPlugin, play.sbt.PlayLogback, play.sbt.forkrun.PlayForkRun)
+[Loading] Done in /Users/Rue/Documents/workspace/Ngoni, returning: (root)
+Set current project to play-java (in build file:/Users/Rue/Documents/workspace/Ngoni/)
+Reapplying settings...
+Set current project to play-java (in build file:/Users/Rue/Documents/workspace/Ngoni/)
+> iflast shell
+> server-send-ready-for-request
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@302a84d9, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 2 s, completed 19-Aug-2016 1:32:25 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/Users/Rue/Documents/workspace/Ngoni/}root/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@163fff8a, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 1 s, completed 19-Aug-2016 1:32:26 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/Users/Rue/Documents/workspace/Ngoni/}root/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@4b280663, check cycles: false
+Total time: 0 s, completed 19-Aug-2016 1:32:26 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/Users/Rue/Documents/workspace/Ngoni/}root/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@4aa2cacb, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 1 s, completed 19-Aug-2016 1:32:26 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> test
+Evaluating tasks: test:test
+Running task... Cancel: sbt.server.ServerTaskCancellation@2bd36b24, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Warning: node.js detection failed, sbt will use the Rhino based Trireme JavaScript engine instead to run JavaScript assets compilation, which in some cases may be orders of magnitude slower than using node.js.
+Copy resource mappings: 
+	(/Users/Rue/Documents/workspace/Ngoni/conf/application.conf,/Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes/application.conf)
+	(/Users/Rue/Documents/workspace/Ngoni/conf/evolutions,/Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes/evolutions)
+	(/Users/Rue/Documents/workspace/Ngoni/conf/logback.xml,/Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes/logback.xml)
+	(/Users/Rue/Documents/workspace/Ngoni/conf/routes,/Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes/routes)
+	(/Users/Rue/Documents/workspace/Ngoni/conf/evolutions/default,/Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes/evolutions/default)
+	(/Users/Rue/Documents/workspace/Ngoni/conf/evolutions/default/1.sql,/Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes/evolutions/default/1.sql)
+
+Initial source changes: 
+	removed:Set()
+	added: Set(/Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java, /Users/Rue/Documents/workspace/Ngoni/test/ApplicationTest.java, /Users/Rue/Documents/workspace/Ngoni/test/IntegrationTest.java)
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java, /Users/Rue/Documents/workspace/Ngoni/test/ApplicationTest.java, /Users/Rue/Documents/workspace/Ngoni/test/IntegrationTest.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java, /Users/Rue/Documents/workspace/Ngoni/test/ApplicationTest.java, /Users/Rue/Documents/workspace/Ngoni/test/IntegrationTest.java)
+
+Recompiling all 3 sources: invalidated sources (3) exceeded 50.0% of all sources
+Read from stdout: Compiling 3 Java sources to /Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/test-classes...
+Compiling 3 Java sources to /Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/test-classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@23ca4095 directly...
+Read from stdout: /Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java:9: package commands does not exist
+/Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java:9: package commands does not exist
+Read from stdout: commands.AddressBookCommands
+commands.AddressBookCommands
+Read from stdout: /Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java:14: cannot find symbol
+Read from stdout: symbol:   class AddressBookCommands
+Read from stdout: location: class AddressBookControllerTest
+/Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java:14: cannot find symbol
+  symbol:   class AddressBookCommands
+  location: class AddressBookControllerTest
+Read from stdout: AddressBookCommands
+AddressBookCommands
+Read from stdout: /Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java:14: cannot find symbol
+Read from stdout: symbol:   class AddressBookCommands
+Read from stdout: location: class AddressBookControllerTest
+/Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java:14: cannot find symbol
+  symbol:   class AddressBookCommands
+  location: class AddressBookControllerTest
+Read from stdout: AddressBookCommands
+AddressBookCommands
+Read from stdout: /Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java:44: cannot find symbol
+Read from stdout: symbol:   method setfName(java.lang.String)
+Read from stdout: location: variable f1 of type models.Friend
+/Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java:44: cannot find symbol
+  symbol:   method setfName(java.lang.String)
+  location: variable f1 of type models.Friend
+Read from stdout: f1.setfName
+f1.setfName
+Read from stdout: (test:compileIncremental) javac returned nonzero exit code
+(test:compileIncremental) javac returned nonzero exit code
+Total time: 3 s, completed 19-Aug-2016 1:32:34 AM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@64c77eaf, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java)
+
+Read from stdout: Compiling 1 Java source to /Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes...
+Compiling 1 Java source to /Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@43cd30b2 directly...
+Read from stdout: /Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java: /Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java uses or overrides a deprecated API.
+/Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java: /Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java uses or overrides a deprecated API.
+Read from stdout: /Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java: Recompile with -Xlint:deprecation for details.
+/Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java: Recompile with -Xlint:deprecation for details.
+Read from stdout: /Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java: /Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java uses unchecked or unsafe operations.
+/Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java: /Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java uses unchecked or unsafe operations.
+Read from stdout: /Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java: Recompile with -Xlint:unchecked for details.
+/Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java: Recompile with -Xlint:unchecked for details.
+Java compilation took 0.216291016 s
+Java analysis took 0.151700705 s
+Java compile + analysis took 0.401615415 s
+Invalidating /Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java...
+Invalidating (transitively) by inheritance from /Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java...
+Initial set of included nodes: Set(/Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java)
+Invalidated by transitive inheritance dependency: Set(/Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java)
+The /Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java source file has the following regular definitions changed:
+	notify, wait, addFriend, equals, getFriend, notifyAll, <init>, getFriends, toString, getClass, AddressBookCommands, editFriend, unFriend, hashCode.
+All member reference dependencies will be considered within this context.
+Name hashing optimization doesn't apply to non-Scala dependency: /Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java
+Name hashing optimization doesn't apply to non-Scala dependency: /Users/Rue/Documents/workspace/Ngoni/app/controllers/AddressBookController.java
+New invalidations:
+	Set(/Users/Rue/Documents/workspace/Ngoni/app/controllers/AddressBookController.java)
+Initial set of included nodes: Set(/Users/Rue/Documents/workspace/Ngoni/app/controllers/AddressBookController.java)
+Including /Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/routes/main/router/Routes.scala by /Users/Rue/Documents/workspace/Ngoni/app/controllers/AddressBookController.java
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set(/Users/Rue/Documents/workspace/Ngoni/app/controllers/AddressBookController.java)
+Read from stdout: Compiling 1 Java source to /Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes...
+Compiling 1 Java source to /Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@43cd30b2 directly...
+Read from stdout: /Users/Rue/Documents/workspace/Ngoni/app/controllers/AddressBookController.java:14: cannot find symbol
+Read from stdout: symbol:   class AddressBookCommands
+Read from stdout: location: class controllers.AddressBookController
+/Users/Rue/Documents/workspace/Ngoni/app/controllers/AddressBookController.java:14: cannot find symbol
+  symbol:   class AddressBookCommands
+  location: class controllers.AddressBookController
+Read from stdout: AddressBookCommands
+AddressBookCommands
+Read from stdout: /Users/Rue/Documents/workspace/Ngoni/app/controllers/AddressBookController.java:14: cannot find symbol
+Read from stdout: symbol:   class AddressBookCommands
+Read from stdout: location: class controllers.AddressBookController
+/Users/Rue/Documents/workspace/Ngoni/app/controllers/AddressBookController.java:14: cannot find symbol
+  symbol:   class AddressBookCommands
+  location: class controllers.AddressBookController
+Read from stdout: AddressBookCommands
+AddressBookCommands
+Read from stdout: /Users/Rue/Documents/workspace/Ngoni/app/controllers/AddressBookController.java: /Users/Rue/Documents/workspace/Ngoni/app/controllers/AddressBookController.java uses or overrides a deprecated API.
+/Users/Rue/Documents/workspace/Ngoni/app/controllers/AddressBookController.java: /Users/Rue/Documents/workspace/Ngoni/app/controllers/AddressBookController.java uses or overrides a deprecated API.
+Read from stdout: /Users/Rue/Documents/workspace/Ngoni/app/controllers/AddressBookController.java: Recompile with -Xlint:deprecation for details.
+/Users/Rue/Documents/workspace/Ngoni/app/controllers/AddressBookController.java: Recompile with -Xlint:deprecation for details.
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 1 s, completed 19-Aug-2016 1:33:01 AM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@2daf7521, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java)
+
+Read from stdout: Compiling 1 Java source to /Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes...
+Compiling 1 Java source to /Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@5c4b609 directly...
+Read from stdout: /Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java: /Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java uses or overrides a deprecated API.
+/Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java: /Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java uses or overrides a deprecated API.
+Read from stdout: /Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java: Recompile with -Xlint:deprecation for details.
+/Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java: Recompile with -Xlint:deprecation for details.
+Read from stdout: /Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java: /Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java uses unchecked or unsafe operations.
+/Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java: /Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java uses unchecked or unsafe operations.
+Read from stdout: /Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java: Recompile with -Xlint:unchecked for details.
+/Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java: Recompile with -Xlint:unchecked for details.
+Java compilation took 0.188281103 s
+Java analysis took 0.021933548 s
+Java compile + analysis took 0.214876514 s
+Invalidating /Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java...
+Invalidating (transitively) by inheritance from /Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java...
+Initial set of included nodes: Set(/Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java)
+Invalidated by transitive inheritance dependency: Set(/Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java)
+The /Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java source file has the following regular definitions changed:
+	notify, wait, addFriend, equals, getFriend, notifyAll, <init>, getFriends, toString, getClass, AddressBookCommands, editFriend, unFriend, hashCode.
+All member reference dependencies will be considered within this context.
+Name hashing optimization doesn't apply to non-Scala dependency: /Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java
+Name hashing optimization doesn't apply to non-Scala dependency: /Users/Rue/Documents/workspace/Ngoni/app/controllers/AddressBookController.java
+New invalidations:
+	Set(/Users/Rue/Documents/workspace/Ngoni/app/controllers/AddressBookController.java)
+Initial set of included nodes: Set(/Users/Rue/Documents/workspace/Ngoni/app/controllers/AddressBookController.java)
+Including /Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/routes/main/router/Routes.scala by /Users/Rue/Documents/workspace/Ngoni/app/controllers/AddressBookController.java
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set(/Users/Rue/Documents/workspace/Ngoni/app/controllers/AddressBookController.java)
+Read from stdout: Compiling 1 Java source to /Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes...
+Compiling 1 Java source to /Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@5c4b609 directly...
+Read from stdout: /Users/Rue/Documents/workspace/Ngoni/app/controllers/AddressBookController.java:14: cannot find symbol
+Read from stdout: symbol:   class AddressBookCommands
+Read from stdout: location: class controllers.AddressBookController
+/Users/Rue/Documents/workspace/Ngoni/app/controllers/AddressBookController.java:14: cannot find symbol
+  symbol:   class AddressBookCommands
+  location: class controllers.AddressBookController
+Read from stdout: AddressBookCommands
+AddressBookCommands
+Read from stdout: /Users/Rue/Documents/workspace/Ngoni/app/controllers/AddressBookController.java:14: cannot find symbol
+Read from stdout: symbol:   class AddressBookCommands
+Read from stdout: location: class controllers.AddressBookController
+/Users/Rue/Documents/workspace/Ngoni/app/controllers/AddressBookController.java:14: cannot find symbol
+  symbol:   class AddressBookCommands
+  location: class controllers.AddressBookController
+Read from stdout: AddressBookCommands
+AddressBookCommands
+Read from stdout: /Users/Rue/Documents/workspace/Ngoni/app/controllers/AddressBookController.java: /Users/Rue/Documents/workspace/Ngoni/app/controllers/AddressBookController.java uses or overrides a deprecated API.
+/Users/Rue/Documents/workspace/Ngoni/app/controllers/AddressBookController.java: /Users/Rue/Documents/workspace/Ngoni/app/controllers/AddressBookController.java uses or overrides a deprecated API.
+Read from stdout: /Users/Rue/Documents/workspace/Ngoni/app/controllers/AddressBookController.java: Recompile with -Xlint:deprecation for details.
+/Users/Rue/Documents/workspace/Ngoni/app/controllers/AddressBookController.java: Recompile with -Xlint:deprecation for details.
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 1 s, completed 19-Aug-2016 1:33:12 AM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@2b96a88c, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java)
+
+Read from stdout: Compiling 1 Java source to /Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes...
+Compiling 1 Java source to /Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@746f4a14 directly...
+Read from stdout: /Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java: /Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java uses or overrides a deprecated API.
+/Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java: /Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java uses or overrides a deprecated API.
+Read from stdout: /Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java: Recompile with -Xlint:deprecation for details.
+/Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java: Recompile with -Xlint:deprecation for details.
+Read from stdout: /Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java: /Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java uses unchecked or unsafe operations.
+/Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java: /Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java uses unchecked or unsafe operations.
+Read from stdout: /Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java: Recompile with -Xlint:unchecked for details.
+/Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java: Recompile with -Xlint:unchecked for details.
+Java compilation took 0.316284689 s
+Java analysis took 0.020000771 s
+Java compile + analysis took 0.34108352 s
+Invalidating /Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java...
+Invalidating (transitively) by inheritance from /Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java...
+Initial set of included nodes: Set(/Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java)
+Invalidated by transitive inheritance dependency: Set(/Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java)
+The /Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java source file has the following regular definitions changed:
+	notify, wait, addFriend, equals, getFriend, notifyAll, <init>, getFriends, toString, getClass, AddressBookCommands, editFriend, unFriend, hashCode.
+All member reference dependencies will be considered within this context.
+Name hashing optimization doesn't apply to non-Scala dependency: /Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java
+Name hashing optimization doesn't apply to non-Scala dependency: /Users/Rue/Documents/workspace/Ngoni/app/controllers/AddressBookController.java
+New invalidations:
+	Set(/Users/Rue/Documents/workspace/Ngoni/app/controllers/AddressBookController.java)
+Initial set of included nodes: Set(/Users/Rue/Documents/workspace/Ngoni/app/controllers/AddressBookController.java)
+Including /Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/routes/main/router/Routes.scala by /Users/Rue/Documents/workspace/Ngoni/app/controllers/AddressBookController.java
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set(/Users/Rue/Documents/workspace/Ngoni/app/controllers/AddressBookController.java)
+Read from stdout: Compiling 1 Java source to /Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes...
+Compiling 1 Java source to /Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@746f4a14 directly...
+Read from stdout: /Users/Rue/Documents/workspace/Ngoni/app/controllers/AddressBookController.java:14: cannot find symbol
+Read from stdout: symbol:   class AddressBookCommands
+Read from stdout: location: class controllers.AddressBookController
+/Users/Rue/Documents/workspace/Ngoni/app/controllers/AddressBookController.java:14: cannot find symbol
+  symbol:   class AddressBookCommands
+  location: class controllers.AddressBookController
+Read from stdout: AddressBookCommands
+AddressBookCommands
+Read from stdout: /Users/Rue/Documents/workspace/Ngoni/app/controllers/AddressBookController.java:14: cannot find symbol
+Read from stdout: symbol:   class AddressBookCommands
+Read from stdout: location: class controllers.AddressBookController
+/Users/Rue/Documents/workspace/Ngoni/app/controllers/AddressBookController.java:14: cannot find symbol
+  symbol:   class AddressBookCommands
+  location: class controllers.AddressBookController
+Read from stdout: AddressBookCommands
+AddressBookCommands
+Read from stdout: /Users/Rue/Documents/workspace/Ngoni/app/controllers/AddressBookController.java: /Users/Rue/Documents/workspace/Ngoni/app/controllers/AddressBookController.java uses or overrides a deprecated API.
+/Users/Rue/Documents/workspace/Ngoni/app/controllers/AddressBookController.java: /Users/Rue/Documents/workspace/Ngoni/app/controllers/AddressBookController.java uses or overrides a deprecated API.
+Read from stdout: /Users/Rue/Documents/workspace/Ngoni/app/controllers/AddressBookController.java: Recompile with -Xlint:deprecation for details.
+/Users/Rue/Documents/workspace/Ngoni/app/controllers/AddressBookController.java: Recompile with -Xlint:deprecation for details.
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 1 s, completed 19-Aug-2016 1:33:36 AM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@5066c993, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java, /Users/Rue/Documents/workspace/Ngoni/app/controllers/AddressBookController.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java, /Users/Rue/Documents/workspace/Ngoni/app/controllers/AddressBookController.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java, /Users/Rue/Documents/workspace/Ngoni/app/controllers/AddressBookController.java)
+
+Read from stdout: Compiling 2 Java sources to /Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes...
+Compiling 2 Java sources to /Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@1c5671ae directly...
+Read from stdout: /Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java: Some input files use or override a deprecated API.
+/Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java: Some input files use or override a deprecated API.
+Read from stdout: /Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java: Recompile with -Xlint:deprecation for details.
+/Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java: Recompile with -Xlint:deprecation for details.
+Read from stdout: /Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java: /Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java uses unchecked or unsafe operations.
+/Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java: /Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java uses unchecked or unsafe operations.
+Read from stdout: /Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java: Recompile with -Xlint:unchecked for details.
+/Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java: Recompile with -Xlint:unchecked for details.
+Java compilation took 0.270522412 s
+Java analysis took 0.106400615 s
+Java compile + analysis took 0.521878597 s
+Invalidating /Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java...
+Invalidating (transitively) by inheritance from /Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java...
+Initial set of included nodes: Set(/Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java)
+Invalidated by transitive inheritance dependency: Set(/Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java)
+The /Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java source file has the following regular definitions changed:
+	notify, wait, addFriend, equals, getFriend, notifyAll, <init>, getFriends, toString, getClass, AddressBookCommands, editFriend, unFriend, hashCode.
+All member reference dependencies will be considered within this context.
+Name hashing optimization doesn't apply to non-Scala dependency: /Users/Rue/Documents/workspace/Ngoni/app/commands/AddressBookCommands.java
+Name hashing optimization doesn't apply to non-Scala dependency: /Users/Rue/Documents/workspace/Ngoni/app/controllers/AddressBookController.java
+Invalidating /Users/Rue/Documents/workspace/Ngoni/app/controllers/AddressBookController.java...
+Invalidating (transitively) by inheritance from /Users/Rue/Documents/workspace/Ngoni/app/controllers/AddressBookController.java...
+Initial set of included nodes: Set(/Users/Rue/Documents/workspace/Ngoni/app/controllers/AddressBookController.java)
+Invalidated by transitive inheritance dependency: Set(/Users/Rue/Documents/workspace/Ngoni/app/controllers/AddressBookController.java)
+The /Users/Rue/Documents/workspace/Ngoni/app/controllers/AddressBookController.java source file has the following regular definitions changed:
+	addressBookCommands.
+All member reference dependencies will be considered within this context.
+Name hashing optimization doesn't apply to non-Scala dependency: /Users/Rue/Documents/workspace/Ngoni/app/controllers/AddressBookController.java
+None of the modified names appears in /Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/routes/main/router/Routes.scala. This dependency is not being considered for invalidation.
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 1 s, completed 19-Aug-2016 1:34:09 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRun
+Evaluating tasks: compile:backgroundRun
+Running task... Cancel: sbt.server.ServerTaskCancellation@2271ab0d, check cycles: false
+Total time: 0 s, completed 19-Aug-2016 1:34:09 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/Users/Rue/Documents/workspace/Ngoni/}root/*:playForkConfig
+Evaluating tasks: *:playForkConfig
+Running task... Cancel: sbt.server.ServerTaskCancellation@5748b0f8, check cycles: false
+Total time: 0 s, completed 19-Aug-2016 1:34:16 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> root/playForkNotifyStart http://localhost:9000
+Evaluating tasks: *:playForkNotifyStart
+Running task... Cancel: sbt.server.ServerTaskCancellation@7bee4b91, check cycles: false
+Total time: 0 s, completed 19-Aug-2016 1:34:19 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> test
+Evaluating tasks: test:test
+Running task... Cancel: sbt.server.ServerTaskCancellation@5a186148, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(/Users/Rue/Documents/workspace/Ngoni/conf/application.conf,/Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes/application.conf)
+	(/Users/Rue/Documents/workspace/Ngoni/conf/evolutions,/Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes/evolutions)
+	(/Users/Rue/Documents/workspace/Ngoni/conf/logback.xml,/Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes/logback.xml)
+	(/Users/Rue/Documents/workspace/Ngoni/conf/routes,/Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes/routes)
+	(/Users/Rue/Documents/workspace/Ngoni/conf/evolutions/default,/Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes/evolutions/default)
+	(/Users/Rue/Documents/workspace/Ngoni/conf/evolutions/default/1.sql,/Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes/evolutions/default/1.sql)
+
+Initial source changes: 
+	removed:Set()
+	added: Set(/Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java, /Users/Rue/Documents/workspace/Ngoni/test/ApplicationTest.java, /Users/Rue/Documents/workspace/Ngoni/test/IntegrationTest.java)
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java, /Users/Rue/Documents/workspace/Ngoni/test/ApplicationTest.java, /Users/Rue/Documents/workspace/Ngoni/test/IntegrationTest.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java, /Users/Rue/Documents/workspace/Ngoni/test/ApplicationTest.java, /Users/Rue/Documents/workspace/Ngoni/test/IntegrationTest.java)
+
+Recompiling all 3 sources: invalidated sources (3) exceeded 50.0% of all sources
+Read from stdout: Compiling 3 Java sources to /Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/test-classes...
+Compiling 3 Java sources to /Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/test-classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@4bae0bed directly...
+Read from stdout: /Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java:44: cannot find symbol
+Read from stdout: symbol:   method setfName(java.lang.String)
+Read from stdout: location: variable f1 of type models.Friend
+/Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java:44: cannot find symbol
+  symbol:   method setfName(java.lang.String)
+  location: variable f1 of type models.Friend
+Read from stdout: f1.setfName
+f1.setfName
+Read from stdout: /Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java:46: cannot find symbol
+Read from stdout: symbol:   method getfName()
+Read from stdout: location: class models.Friend
+/Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java:46: cannot find symbol
+  symbol:   method getfName()
+  location: class models.Friend
+Read from stdout: command.getFriend("ndondo@gmail.com").getfName
+command.getFriend("ndondo@gmail.com").getfName
+Read from stdout: (test:compileIncremental) javac returned nonzero exit code
+(test:compileIncremental) javac returned nonzero exit code
+Total time: 2 s, completed 19-Aug-2016 1:34:27 AM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@da82d61, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 1 s, completed 19-Aug-2016 1:35:25 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 1
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@251ca46, check cycles: false
+Total time: 0 s, completed 19-Aug-2016 1:35:25 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRun
+Evaluating tasks: compile:backgroundRun
+Running task... Cancel: sbt.server.ServerTaskCancellation@55aced, check cycles: false
+Total time: 0 s, completed 19-Aug-2016 1:35:25 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/Users/Rue/Documents/workspace/Ngoni/}root/*:playForkConfig
+Evaluating tasks: *:playForkConfig
+Running task... Cancel: sbt.server.ServerTaskCancellation@72bfc112, check cycles: false
+Total time: 0 s, completed 19-Aug-2016 1:35:29 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> root/playForkNotifyStart http://localhost:9000
+Evaluating tasks: *:playForkNotifyStart
+Running task... Cancel: sbt.server.ServerTaskCancellation@6eeb2d7a, check cycles: false
+Total time: 0 s, completed 19-Aug-2016 1:35:31 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> test
+Evaluating tasks: test:test
+Running task... Cancel: sbt.server.ServerTaskCancellation@28a1ef00, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(/Users/Rue/Documents/workspace/Ngoni/conf/application.conf,/Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes/application.conf)
+	(/Users/Rue/Documents/workspace/Ngoni/conf/evolutions,/Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes/evolutions)
+	(/Users/Rue/Documents/workspace/Ngoni/conf/logback.xml,/Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes/logback.xml)
+	(/Users/Rue/Documents/workspace/Ngoni/conf/routes,/Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes/routes)
+	(/Users/Rue/Documents/workspace/Ngoni/conf/evolutions/default,/Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes/evolutions/default)
+	(/Users/Rue/Documents/workspace/Ngoni/conf/evolutions/default/1.sql,/Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes/evolutions/default/1.sql)
+
+Initial source changes: 
+	removed:Set()
+	added: Set(/Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java, /Users/Rue/Documents/workspace/Ngoni/test/ApplicationTest.java, /Users/Rue/Documents/workspace/Ngoni/test/IntegrationTest.java)
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java, /Users/Rue/Documents/workspace/Ngoni/test/ApplicationTest.java, /Users/Rue/Documents/workspace/Ngoni/test/IntegrationTest.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java, /Users/Rue/Documents/workspace/Ngoni/test/ApplicationTest.java, /Users/Rue/Documents/workspace/Ngoni/test/IntegrationTest.java)
+
+Recompiling all 3 sources: invalidated sources (3) exceeded 50.0% of all sources
+Read from stdout: Compiling 3 Java sources to /Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/test-classes...
+Compiling 3 Java sources to /Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/test-classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@3e02c6cf directly...
+Java compilation took 0.825810269 s
+Java analysis took 0.072386554 s
+Java compile + analysis took 0.901841601 s
+Invalidating /Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java...
+Invalidating (transitively) by inheritance from /Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java...
+Initial set of included nodes: Set(/Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java)
+Invalidated by transitive inheritance dependency: Set(/Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java)
+The /Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java source file has the following regular definitions changed:
+	notify, getFriendTest, wait, equals, unFriendTest, command, notifyAll, AddressBookControllerTest, <init>, getFriends, addFriendTest, toString, editFriendTest, getClass, hashCode.
+All member reference dependencies will be considered within this context.
+Name hashing optimization doesn't apply to non-Scala dependency: /Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java
+Invalidating /Users/Rue/Documents/workspace/Ngoni/test/ApplicationTest.java...
+Invalidating (transitively) by inheritance from /Users/Rue/Documents/workspace/Ngoni/test/ApplicationTest.java...
+Initial set of included nodes: Set(/Users/Rue/Documents/workspace/Ngoni/test/ApplicationTest.java)
+Invalidated by transitive inheritance dependency: Set(/Users/Rue/Documents/workspace/Ngoni/test/ApplicationTest.java)
+The /Users/Rue/Documents/workspace/Ngoni/test/ApplicationTest.java source file has the following regular definitions changed:
+	notify, wait, equals, simpleCheck, notifyAll, ApplicationTest, <init>, toString, getClass, renderTemplate, hashCode.
+All member reference dependencies will be considered within this context.
+Name hashing optimization doesn't apply to non-Scala dependency: /Users/Rue/Documents/workspace/Ngoni/test/ApplicationTest.java
+Invalidating /Users/Rue/Documents/workspace/Ngoni/test/IntegrationTest.java...
+Invalidating (transitively) by inheritance from /Users/Rue/Documents/workspace/Ngoni/test/IntegrationTest.java...
+Initial set of included nodes: Set(/Users/Rue/Documents/workspace/Ngoni/test/IntegrationTest.java)
+Invalidated by transitive inheritance dependency: Set(/Users/Rue/Documents/workspace/Ngoni/test/IntegrationTest.java)
+The /Users/Rue/Documents/workspace/Ngoni/test/IntegrationTest.java source file has the following regular definitions changed:
+	notify, lambda$test$0, test, wait, equals, notifyAll, IntegrationTest, <init>, toString, getClass, hashCode.
+All member reference dependencies will be considered within this context.
+Name hashing optimization doesn't apply to non-Scala dependency: /Users/Rue/Documents/workspace/Ngoni/test/IntegrationTest.java
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	
+Framework implementation 'org.scalacheck.ScalaCheckFramework' not present.
+Framework implementation 'org.specs2.runner.Specs2Framework' not present.
+Framework implementation 'org.specs2.runner.SpecsFramework' not present.
+Framework implementation 'org.specs.runner.SpecsFramework' not present.
+Framework implementation 'org.scalatest.tools.Framework' not present.
+Framework implementation 'org.scalatest.tools.ScalaTestFramework' not present.
+Subclass fingerprints: List((junit.framework.TestCase,false,com.novocode.junit.JUnit3Fingerprint@51f5e966))
+Annotation fingerprints: List((org.junit.runner.RunWith,false,com.novocode.junit.RunWithFingerprint@53b2fa6d), (org.junit.Test,false,com.novocode.junit.JUnitFingerprint@2df297a4))
+Forking tests - parallelism = false
+Create a single-thread test executor
+Runner for com.novocode.junit.JUnitFramework produced 3 initial tasks for 3 tests.
+  Running TaskDef(IntegrationTest, sbt.ForkMain$AnnotatedFingerscan@124b7767, false, [SuiteSelector])
+Test run started
+Test IntegrationTest.test started
+[info] application - Creating Pool for datasource 'default'
+[error] o.j.StatementLogger - java.sql.Statement.executeQuery: select id, hash, apply_script, revert_script, state, last_problem from play_evolutions where state like 'applying_%';
+throws exception: org.h2.jdbc.JdbcSQLException: Table "PLAY_EVOLUTIONS" not found; SQL statement:
+select id, hash, apply_script, revert_script, state, last_problem from play_evolutions where state like 'applying_%' [42102-191]
+org.h2.jdbc.JdbcSQLException: Table "PLAY_EVOLUTIONS" not found; SQL statement:
+select id, hash, apply_script, revert_script, state, last_problem from play_evolutions where state like 'applying_%' [42102-191]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.command.Parser.readTableOrView(Parser.java:5349)
+	at org.h2.command.Parser.readTableFilter(Parser.java:1245)
+	at org.h2.command.Parser.parseSelectSimpleFromPart(Parser.java:1884)
+	at org.h2.command.Parser.parseSelectSimple(Parser.java:2032)
+	at org.h2.command.Parser.parseSelectSub(Parser.java:1878)
+	at org.h2.command.Parser.parseSelectUnion(Parser.java:1699)
+	at org.h2.command.Parser.parseSelect(Parser.java:1687)
+[warn] c.g.h.IncorrectnessListenerImpl - Obsolete content type encountered: 'text/javascript'.
+[info] application - Shutting down connection pool.
+Test IntegrationTest.test finished, took 9.705 sec
+Test run finished: 0 failed, 0 ignored, 1 total, 9.714s
+    Produced 0 nested tasks and 1 events.
+  Running TaskDef(ApplicationTest, sbt.ForkMain$AnnotatedFingerscan@4308fe2c, false, [SuiteSelector])
+Test run started
+Test ApplicationTest.simpleCheck started
+Test ApplicationTest.simpleCheck finished, took 0.0 sec
+Test ApplicationTest.renderTemplate started
+Test ApplicationTest.renderTemplate finished, took 0.001 sec
+Test run finished: 0 failed, 0 ignored, 2 total, 0.001s
+    Produced 0 nested tasks and 2 events.
+  Running TaskDef(AddressBookControllerTest, sbt.ForkMain$AnnotatedFingerscan@4659f19f, false, [SuiteSelector])
+Test run started
+Test AddressBookControllerTest.getFriendTest started
+Read from stdout: Test AddressBookControllerTest.getFriendTest failed: javax.persistence.PersistenceException: java.sql.SQLException: HikariDataSource HikariDataSource (HikariPool-0) has been closed., took 0.004 sec
+Test AddressBookControllerTest.getFriendTest failed: javax.persistence.PersistenceException: java.sql.SQLException: HikariDataSource HikariDataSource (HikariPool-0) has been closed., took 0.004 sec
+Read from stdout: at com.avaje.ebeaninternal.server.transaction.TransactionManager.createQueryTransaction(TransactionManager.java:310)
+    at com.avaje.ebeaninternal.server.transaction.TransactionManager.createQueryTransaction(TransactionManager.java:310)
+Read from stdout: at com.avaje.ebeaninternal.server.core.DefaultServer.createQueryTransaction(DefaultServer.java:2068)
+    at com.avaje.ebeaninternal.server.core.DefaultServer.createQueryTransaction(DefaultServer.java:2068)
+Read from stdout: at com.avaje.ebeaninternal.server.core.OrmQueryRequest.initTransIfRequired(OrmQueryRequest.java:209)
+    at com.avaje.ebeaninternal.server.core.OrmQueryRequest.initTransIfRequired(OrmQueryRequest.java:209)
+Read from stdout: at com.avaje.ebeaninternal.server.core.DefaultServer.findId(DefaultServer.java:1143)
+    at com.avaje.ebeaninternal.server.core.DefaultServer.findId(DefaultServer.java:1143)
+Read from stdout: at com.avaje.ebeaninternal.server.core.DefaultServer.find(DefaultServer.java:1037)
+    at com.avaje.ebeaninternal.server.core.DefaultServer.find(DefaultServer.java:1037)
+Read from stdout: at com.avaje.ebeaninternal.server.core.DefaultServer.find(DefaultServer.java:1024)
+    at com.avaje.ebeaninternal.server.core.DefaultServer.find(DefaultServer.java:1024)
+Read from stdout: at com.avaje.ebean.Model$Find.byId(Model.java:556)
+    at com.avaje.ebean.Model$Find.byId(Model.java:556)
+Read from stdout: at commands.AddressBookCommands.getFriend(AddressBookCommands.java:42)
+    at commands.AddressBookCommands.getFriend(AddressBookCommands.java:42)
+Read from stdout: at AddressBookControllerTest.getFriendTest(AddressBookControllerTest.java:28)
+    at AddressBookControllerTest.getFriendTest(AddressBookControllerTest.java:28)
+Read from stdout: ...
+    ...
+Read from stdout: Caused by: java.sql.SQLException: HikariDataSource HikariDataSource (HikariPool-0) has been closed.
+Caused by: java.sql.SQLException: HikariDataSource HikariDataSource (HikariPool-0) has been closed.
+Read from stdout: at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:79)
+    at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:79)
+Read from stdout: at org.jdbcdslog.DataSourceProxyBase.getConnection(DataSourceProxyBase.java:45)
+    at org.jdbcdslog.DataSourceProxyBase.getConnection(DataSourceProxyBase.java:45)
+Read from stdout: at play.db.ebean.DefaultEbeanConfig$EbeanConfigParser$WrappingDatasource.getConnection(DefaultEbeanConfig.java:149)
+    at play.db.ebean.DefaultEbeanConfig$EbeanConfigParser$WrappingDatasource.getConnection(DefaultEbeanConfig.java:149)
+Read from stdout: at com.avaje.ebeaninternal.server.transaction.TransactionManager.createQueryTransaction(TransactionManager.java:292)
+    at com.avaje.ebeaninternal.server.transaction.TransactionManager.createQueryTransaction(TransactionManager.java:292)
+Read from stdout: ... 42 more
+    ... 42 more
+Test AddressBookControllerTest.getFriendTest finished, took 0.006 sec
+Test AddressBookControllerTest.unFriendTest started
+Read from stdout: Test AddressBookControllerTest.unFriendTest failed: null, took 0.001 sec
+Test AddressBookControllerTest.unFriendTest failed: null, took 0.001 sec
+Test AddressBookControllerTest.unFriendTest finished, took 0.001 sec
+Test AddressBookControllerTest.addFriendTest started
+Read from stdout: Test AddressBookControllerTest.addFriendTest failed: null, took 0.0 sec
+Test AddressBookControllerTest.addFriendTest failed: null, took 0.0 sec
+Test AddressBookControllerTest.addFriendTest finished, took 0.0 sec
+Test AddressBookControllerTest.editFriendTest started
+Read from stdout: Test AddressBookControllerTest.editFriendTest failed: javax.persistence.PersistenceException: java.sql.SQLException: HikariDataSource HikariDataSource (HikariPool-0) has been closed., took 0.0 sec
+Test AddressBookControllerTest.editFriendTest failed: javax.persistence.PersistenceException: java.sql.SQLException: HikariDataSource HikariDataSource (HikariPool-0) has been closed., took 0.0 sec
+Read from stdout: at com.avaje.ebeaninternal.server.transaction.TransactionManager.createQueryTransaction(TransactionManager.java:310)
+    at com.avaje.ebeaninternal.server.transaction.TransactionManager.createQueryTransaction(TransactionManager.java:310)
+Read from stdout: at com.avaje.ebeaninternal.server.core.DefaultServer.createQueryTransaction(DefaultServer.java:2068)
+    at com.avaje.ebeaninternal.server.core.DefaultServer.createQueryTransaction(DefaultServer.java:2068)
+Read from stdout: at com.avaje.ebeaninternal.server.core.OrmQueryRequest.initTransIfRequired(OrmQueryRequest.java:209)
+    at com.avaje.ebeaninternal.server.core.OrmQueryRequest.initTransIfRequired(OrmQueryRequest.java:209)
+Read from stdout: at com.avaje.ebeaninternal.server.core.DefaultServer.findId(DefaultServer.java:1143)
+    at com.avaje.ebeaninternal.server.core.DefaultServer.findId(DefaultServer.java:1143)
+Read from stdout: at com.avaje.ebeaninternal.server.core.DefaultServer.find(DefaultServer.java:1037)
+    at com.avaje.ebeaninternal.server.core.DefaultServer.find(DefaultServer.java:1037)
+Read from stdout: at com.avaje.ebeaninternal.server.core.DefaultServer.find(DefaultServer.java:1024)
+    at com.avaje.ebeaninternal.server.core.DefaultServer.find(DefaultServer.java:1024)
+Read from stdout: at com.avaje.ebean.Model$Find.byId(Model.java:556)
+    at com.avaje.ebean.Model$Find.byId(Model.java:556)
+Read from stdout: at commands.AddressBookCommands.getFriend(AddressBookCommands.java:42)
+    at commands.AddressBookCommands.getFriend(AddressBookCommands.java:42)
+Read from stdout: at AddressBookControllerTest.editFriendTest(AddressBookControllerTest.java:46)
+    at AddressBookControllerTest.editFriendTest(AddressBookControllerTest.java:46)
+Read from stdout: ...
+    ...
+Read from stdout: Caused by: java.sql.SQLException: HikariDataSource HikariDataSource (HikariPool-0) has been closed.
+Caused by: java.sql.SQLException: HikariDataSource HikariDataSource (HikariPool-0) has been closed.
+Read from stdout: at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:79)
+    at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:79)
+Read from stdout: at org.jdbcdslog.DataSourceProxyBase.getConnection(DataSourceProxyBase.java:45)
+    at org.jdbcdslog.DataSourceProxyBase.getConnection(DataSourceProxyBase.java:45)
+Read from stdout: at play.db.ebean.DefaultEbeanConfig$EbeanConfigParser$WrappingDatasource.getConnection(DefaultEbeanConfig.java:149)
+    at play.db.ebean.DefaultEbeanConfig$EbeanConfigParser$WrappingDatasource.getConnection(DefaultEbeanConfig.java:149)
+Read from stdout: at com.avaje.ebeaninternal.server.transaction.TransactionManager.createQueryTransaction(TransactionManager.java:292)
+    at com.avaje.ebeaninternal.server.transaction.TransactionManager.createQueryTransaction(TransactionManager.java:292)
+Read from stdout: ... 42 more
+    ... 42 more
+Test AddressBookControllerTest.editFriendTest finished, took 0.001 sec
+Test AddressBookControllerTest.getFriends started
+Read from stdout: Test AddressBookControllerTest.getFriends failed: javax.persistence.PersistenceException: java.sql.SQLException: HikariDataSource HikariDataSource (HikariPool-0) has been closed., took 0.0 sec
+Test AddressBookControllerTest.getFriends failed: javax.persistence.PersistenceException: java.sql.SQLException: HikariDataSource HikariDataSource (HikariPool-0) has been closed., took 0.0 sec
+Read from stdout: at com.avaje.ebeaninternal.server.transaction.TransactionManager.createQueryTransaction(TransactionManager.java:310)
+    at com.avaje.ebeaninternal.server.transaction.TransactionManager.createQueryTransaction(TransactionManager.java:310)
+Read from stdout: at com.avaje.ebeaninternal.server.core.DefaultServer.createQueryTransaction(DefaultServer.java:2068)
+    at com.avaje.ebeaninternal.server.core.DefaultServer.createQueryTransaction(DefaultServer.java:2068)
+Read from stdout: at com.avaje.ebeaninternal.server.core.OrmQueryRequest.initTransIfRequired(OrmQueryRequest.java:209)
+    at com.avaje.ebeaninternal.server.core.OrmQueryRequest.initTransIfRequired(OrmQueryRequest.java:209)
+Read from stdout: at com.avaje.ebeaninternal.server.core.DefaultServer.findList(DefaultServer.java:1402)
+    at com.avaje.ebeaninternal.server.core.DefaultServer.findList(DefaultServer.java:1402)
+Read from stdout: at com.avaje.ebeaninternal.server.querydefn.DefaultOrmQuery.findList(DefaultOrmQuery.java:1067)
+    at com.avaje.ebeaninternal.server.querydefn.DefaultOrmQuery.findList(DefaultOrmQuery.java:1067)
+Read from stdout: at com.avaje.ebean.Model$Find.findList(Model.java:657)
+    at com.avaje.ebean.Model$Find.findList(Model.java:657)
+Read from stdout: at com.avaje.ebean.Model$Find.all(Model.java:545)
+    at com.avaje.ebean.Model$Find.all(Model.java:545)
+Read from stdout: at commands.AddressBookCommands.getFriends(AddressBookCommands.java:37)
+    at commands.AddressBookCommands.getFriends(AddressBookCommands.java:37)
+Read from stdout: at AddressBookControllerTest.getFriends(AddressBookControllerTest.java:57)
+    at AddressBookControllerTest.getFriends(AddressBookControllerTest.java:57)
+Read from stdout: ...
+    ...
+Read from stdout: Caused by: java.sql.SQLException: HikariDataSource HikariDataSource (HikariPool-0) has been closed.
+Caused by: java.sql.SQLException: HikariDataSource HikariDataSource (HikariPool-0) has been closed.
+Read from stdout: at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:79)
+    at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:79)
+Read from stdout: at org.jdbcdslog.DataSourceProxyBase.getConnection(DataSourceProxyBase.java:45)
+    at org.jdbcdslog.DataSourceProxyBase.getConnection(DataSourceProxyBase.java:45)
+Read from stdout: at play.db.ebean.DefaultEbeanConfig$EbeanConfigParser$WrappingDatasource.getConnection(DefaultEbeanConfig.java:149)
+    at play.db.ebean.DefaultEbeanConfig$EbeanConfigParser$WrappingDatasource.getConnection(DefaultEbeanConfig.java:149)
+Read from stdout: at com.avaje.ebeaninternal.server.transaction.TransactionManager.createQueryTransaction(TransactionManager.java:292)
+    at com.avaje.ebeaninternal.server.transaction.TransactionManager.createQueryTransaction(TransactionManager.java:292)
+Read from stdout: ... 42 more
+    ... 42 more
+Test AddressBookControllerTest.getFriends finished, took 0.001 sec
+Test run finished: 5 failed, 0 ignored, 5 total, 0.012s
+    Produced 0 nested tasks and 5 events.
+Summary for JUnit not available.
+Read from stdout: Failed: Total 8, Failed 5, Errors 0, Passed 3
+Failed: Total 8, Failed 5, Errors 0, Passed 3
+Passed tests:
+	ApplicationTest
+	IntegrationTest
+Read from stdout: Failed tests:
+Failed tests:
+Read from stdout: 	AddressBookControllerTest
+	AddressBookControllerTest
+Read from stdout: (test:test) sbt.TestsFailedException: Tests unsuccessful
+(test:test) sbt.TestsFailedException: Tests unsuccessful
+Total time: 13 s, completed 19-Aug-2016 1:35:47 AM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@135fdbad, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 1 s, completed 19-Aug-2016 1:38:59 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 2
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@75e1160a, check cycles: false
+Total time: 0 s, completed 19-Aug-2016 1:38:59 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRun
+Evaluating tasks: compile:backgroundRun
+Running task... Cancel: sbt.server.ServerTaskCancellation@19c41a08, check cycles: false
+Total time: 0 s, completed 19-Aug-2016 1:38:59 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/Users/Rue/Documents/workspace/Ngoni/}root/*:playForkConfig
+Evaluating tasks: *:playForkConfig
+Running task... Cancel: sbt.server.ServerTaskCancellation@15a2788b, check cycles: false
+Total time: 0 s, completed 19-Aug-2016 1:39:03 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> root/playForkNotifyStart http://localhost:9000
+Evaluating tasks: *:playForkNotifyStart
+Running task... Cancel: sbt.server.ServerTaskCancellation@416a3c68, check cycles: false
+Total time: 0 s, completed 19-Aug-2016 1:39:05 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/Users/Rue/Documents/workspace/Ngoni/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@227f39df, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(/Users/Rue/Documents/workspace/Ngoni/conf/application.conf,/Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes/application.conf)
+	(/Users/Rue/Documents/workspace/Ngoni/conf/evolutions,/Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes/evolutions)
+	(/Users/Rue/Documents/workspace/Ngoni/conf/logback.xml,/Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes/logback.xml)
+	(/Users/Rue/Documents/workspace/Ngoni/conf/routes,/Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes/routes)
+	(/Users/Rue/Documents/workspace/Ngoni/conf/evolutions/default,/Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes/evolutions/default)
+	(/Users/Rue/Documents/workspace/Ngoni/conf/evolutions/default/1.sql,/Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes/evolutions/default/1.sql)
+Total time: 1 s, completed 19-Aug-2016 1:41:38 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@2805d8cf, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 1 s, completed 19-Aug-2016 1:44:13 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 3
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@593bf90f, check cycles: false
+Total time: 0 s, completed 19-Aug-2016 1:44:13 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRun
+Evaluating tasks: compile:backgroundRun
+Running task... Cancel: sbt.server.ServerTaskCancellation@7acab9a, check cycles: false
+Total time: 0 s, completed 19-Aug-2016 1:44:14 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/Users/Rue/Documents/workspace/Ngoni/}root/*:playForkConfig
+Evaluating tasks: *:playForkConfig
+Running task... Cancel: sbt.server.ServerTaskCancellation@65cc1419, check cycles: false
+Total time: 0 s, completed 19-Aug-2016 1:44:17 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> root/playForkNotifyStart http://localhost:9000
+Evaluating tasks: *:playForkNotifyStart
+Running task... Cancel: sbt.server.ServerTaskCancellation@1d763577, check cycles: false
+Total time: 0 s, completed 19-Aug-2016 1:44:19 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> test
+Evaluating tasks: test:test
+Running task... Cancel: sbt.server.ServerTaskCancellation@45a4a99e, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(/Users/Rue/Documents/workspace/Ngoni/conf/application.conf,/Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes/application.conf)
+	(/Users/Rue/Documents/workspace/Ngoni/conf/evolutions,/Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes/evolutions)
+	(/Users/Rue/Documents/workspace/Ngoni/conf/logback.xml,/Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes/logback.xml)
+	(/Users/Rue/Documents/workspace/Ngoni/conf/routes,/Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes/routes)
+	(/Users/Rue/Documents/workspace/Ngoni/conf/evolutions/default,/Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes/evolutions/default)
+	(/Users/Rue/Documents/workspace/Ngoni/conf/evolutions/default/1.sql,/Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes/evolutions/default/1.sql)
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java)
+
+Read from stdout: Compiling 1 Java source to /Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/test-classes...
+Compiling 1 Java source to /Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/test-classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@239a00a8 directly...
+Read from stdout: /Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java:16: cannot find symbol
+Read from stdout: symbol:   class Database
+Read from stdout: location: class AddressBookControllerTest
+/Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java:16: cannot find symbol
+  symbol:   class Database
+  location: class AddressBookControllerTest
+Read from stdout: Database
+Database
+Read from stdout: /Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java:23: cannot find symbol
+Read from stdout: symbol:   variable ImmutableMap
+Read from stdout: location: class AddressBookControllerTest
+/Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java:23: cannot find symbol
+  symbol:   variable ImmutableMap
+  location: class AddressBookControllerTest
+Read from stdout: ImmutableMap
+ImmutableMap
+Read from stdout: /Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java:26: cannot find symbol
+Read from stdout: symbol:   variable ImmutableMap
+Read from stdout: location: class AddressBookControllerTest
+/Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java:26: cannot find symbol
+  symbol:   variable ImmutableMap
+  location: class AddressBookControllerTest
+Read from stdout: ImmutableMap
+ImmutableMap
+Read from stdout: /Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java:21: cannot find symbol
+Read from stdout: symbol:   variable Databases
+Read from stdout: location: class AddressBookControllerTest
+/Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java:21: cannot find symbol
+  symbol:   variable Databases
+  location: class AddressBookControllerTest
+Read from stdout: Databases
+Databases
+Read from stdout: /Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java:30: cannot find symbol
+Read from stdout: symbol:   class Evolution
+Read from stdout: location: class AddressBookControllerTest
+/Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java:30: cannot find symbol
+  symbol:   class Evolution
+  location: class AddressBookControllerTest
+Read from stdout: Evolution
+Evolution
+Read from stdout: /Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java:30: cannot find symbol
+Read from stdout: symbol:   variable Evolutions
+Read from stdout: location: class AddressBookControllerTest
+/Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java:30: cannot find symbol
+  symbol:   variable Evolutions
+  location: class AddressBookControllerTest
+Read from stdout: Evolutions
+Evolutions
+Read from stdout: /Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java:30: cannot find symbol
+Read from stdout: symbol:   variable Evolutions
+Read from stdout: location: class AddressBookControllerTest
+/Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java:30: cannot find symbol
+  symbol:   variable Evolutions
+  location: class AddressBookControllerTest
+Read from stdout: Evolutions
+Evolutions
+Read from stdout: (test:compileIncremental) javac returned nonzero exit code
+(test:compileIncremental) javac returned nonzero exit code
+Total time: 2 s, completed 19-Aug-2016 1:44:28 AM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@2834047b, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 1 s, completed 19-Aug-2016 1:44:56 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 4
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@2fd01946, check cycles: false
+Total time: 0 s, completed 19-Aug-2016 1:44:56 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRun
+Evaluating tasks: compile:backgroundRun
+Running task... Cancel: sbt.server.ServerTaskCancellation@7438e243, check cycles: false
+Total time: 0 s, completed 19-Aug-2016 1:44:56 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/Users/Rue/Documents/workspace/Ngoni/}root/*:playForkConfig
+Evaluating tasks: *:playForkConfig
+Running task... Cancel: sbt.server.ServerTaskCancellation@47fab5dc, check cycles: false
+Total time: 0 s, completed 19-Aug-2016 1:44:59 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> root/playForkNotifyStart http://localhost:9000
+Evaluating tasks: *:playForkNotifyStart
+Running task... Cancel: sbt.server.ServerTaskCancellation@30ce8086, check cycles: false
+Total time: 0 s, completed 19-Aug-2016 1:45:01 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> test
+Evaluating tasks: test:test
+Running task... Cancel: sbt.server.ServerTaskCancellation@1220c27, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(/Users/Rue/Documents/workspace/Ngoni/conf/application.conf,/Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes/application.conf)
+	(/Users/Rue/Documents/workspace/Ngoni/conf/evolutions,/Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes/evolutions)
+	(/Users/Rue/Documents/workspace/Ngoni/conf/logback.xml,/Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes/logback.xml)
+	(/Users/Rue/Documents/workspace/Ngoni/conf/routes,/Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes/routes)
+	(/Users/Rue/Documents/workspace/Ngoni/conf/evolutions/default,/Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes/evolutions/default)
+	(/Users/Rue/Documents/workspace/Ngoni/conf/evolutions/default/1.sql,/Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes/evolutions/default/1.sql)
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java)
+
+Read from stdout: Compiling 1 Java source to /Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/test-classes...
+Compiling 1 Java source to /Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/test-classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@139a8e6a directly...
+Read from stdout: /Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java:28: cannot find symbol
+Read from stdout: symbol:   variable ImmutableMap
+Read from stdout: location: class AddressBookControllerTest
+/Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java:28: cannot find symbol
+  symbol:   variable ImmutableMap
+  location: class AddressBookControllerTest
+Read from stdout: ImmutableMap
+ImmutableMap
+Read from stdout: /Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java:31: cannot find symbol
+Read from stdout: symbol:   variable ImmutableMap
+Read from stdout: location: class AddressBookControllerTest
+/Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java:31: cannot find symbol
+  symbol:   variable ImmutableMap
+  location: class AddressBookControllerTest
+Read from stdout: ImmutableMap
+ImmutableMap
+Read from stdout: (test:compileIncremental) javac returned nonzero exit code
+(test:compileIncremental) javac returned nonzero exit code
+Total time: 2 s, completed 19-Aug-2016 1:45:14 AM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@6264192f, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed 19-Aug-2016 1:45:32 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 5
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@77d299be, check cycles: false
+Total time: 0 s, completed 19-Aug-2016 1:45:32 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRun
+Evaluating tasks: compile:backgroundRun
+Running task... Cancel: sbt.server.ServerTaskCancellation@7b95bff5, check cycles: false
+Total time: 0 s, completed 19-Aug-2016 1:45:33 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/Users/Rue/Documents/workspace/Ngoni/}root/*:playForkConfig
+Evaluating tasks: *:playForkConfig
+Running task... Cancel: sbt.server.ServerTaskCancellation@358b79d9, check cycles: false
+Total time: 0 s, completed 19-Aug-2016 1:45:36 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> root/playForkNotifyStart http://localhost:9000
+Evaluating tasks: *:playForkNotifyStart
+Running task... Cancel: sbt.server.ServerTaskCancellation@660a6c99, check cycles: false
+Total time: 0 s, completed 19-Aug-2016 1:45:38 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> test
+Evaluating tasks: test:test
+Running task... Cancel: sbt.server.ServerTaskCancellation@3f5842ab, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(/Users/Rue/Documents/workspace/Ngoni/conf/application.conf,/Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes/application.conf)
+	(/Users/Rue/Documents/workspace/Ngoni/conf/evolutions,/Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes/evolutions)
+	(/Users/Rue/Documents/workspace/Ngoni/conf/logback.xml,/Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes/logback.xml)
+	(/Users/Rue/Documents/workspace/Ngoni/conf/routes,/Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes/routes)
+	(/Users/Rue/Documents/workspace/Ngoni/conf/evolutions/default,/Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes/evolutions/default)
+	(/Users/Rue/Documents/workspace/Ngoni/conf/evolutions/default/1.sql,/Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes/evolutions/default/1.sql)
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java)
+
+Read from stdout: Compiling 1 Java source to /Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/test-classes...
+Compiling 1 Java source to /Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/test-classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@742fe66 directly...
+Java compilation took 0.637085421 s
+Java analysis took 0.022106271 s
+Java compile + analysis took 0.663118005 s
+Invalidating /Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java...
+Invalidating (transitively) by inheritance from /Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java...
+Initial set of included nodes: Set(/Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java)
+Invalidated by transitive inheritance dependency: Set(/Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java)
+The /Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java source file has the following regular definitions changed:
+	setupDatabase, database.
+All member reference dependencies will be considered within this context.
+Name hashing optimization doesn't apply to non-Scala dependency: /Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	
+Framework implementation 'org.scalacheck.ScalaCheckFramework' not present.
+Framework implementation 'org.specs2.runner.Specs2Framework' not present.
+Framework implementation 'org.specs2.runner.SpecsFramework' not present.
+Framework implementation 'org.specs.runner.SpecsFramework' not present.
+Framework implementation 'org.scalatest.tools.Framework' not present.
+Framework implementation 'org.scalatest.tools.ScalaTestFramework' not present.
+Subclass fingerprints: List((junit.framework.TestCase,false,com.novocode.junit.JUnit3Fingerprint@6fca8e1d))
+Annotation fingerprints: List((org.junit.runner.RunWith,false,com.novocode.junit.RunWithFingerprint@3404bbd2), (org.junit.Test,false,com.novocode.junit.JUnitFingerprint@5f06134f))
+Forking tests - parallelism = false
+Create a single-thread test executor
+Runner for com.novocode.junit.JUnitFramework produced 3 initial tasks for 3 tests.
+  Running TaskDef(IntegrationTest, sbt.ForkMain$AnnotatedFingerscan@7820820, false, [SuiteSelector])
+Test run started
+Test IntegrationTest.test started
+[info] application - Creating Pool for datasource 'default'
+[error] o.j.StatementLogger - java.sql.Statement.executeQuery: select id, hash, apply_script, revert_script, state, last_problem from play_evolutions where state like 'applying_%';
+throws exception: org.h2.jdbc.JdbcSQLException: Table "PLAY_EVOLUTIONS" not found; SQL statement:
+select id, hash, apply_script, revert_script, state, last_problem from play_evolutions where state like 'applying_%' [42102-191]
+org.h2.jdbc.JdbcSQLException: Table "PLAY_EVOLUTIONS" not found; SQL statement:
+select id, hash, apply_script, revert_script, state, last_problem from play_evolutions where state like 'applying_%' [42102-191]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.command.Parser.readTableOrView(Parser.java:5349)
+	at org.h2.command.Parser.readTableFilter(Parser.java:1245)
+	at org.h2.command.Parser.parseSelectSimpleFromPart(Parser.java:1884)
+	at org.h2.command.Parser.parseSelectSimple(Parser.java:2032)
+	at org.h2.command.Parser.parseSelectSub(Parser.java:1878)
+	at org.h2.command.Parser.parseSelectUnion(Parser.java:1699)
+	at org.h2.command.Parser.parseSelect(Parser.java:1687)
+[warn] c.g.h.IncorrectnessListenerImpl - Obsolete content type encountered: 'text/javascript'.
+[info] application - Shutting down connection pool.
+Test IntegrationTest.test finished, took 7.92 sec
+Test run finished: 0 failed, 0 ignored, 1 total, 7.929s
+    Produced 0 nested tasks and 1 events.
+  Running TaskDef(ApplicationTest, sbt.ForkMain$AnnotatedFingerscan@3416e43a, false, [SuiteSelector])
+Test run started
+Test ApplicationTest.simpleCheck started
+Test ApplicationTest.simpleCheck finished, took 0.0 sec
+Test ApplicationTest.renderTemplate started
+Test ApplicationTest.renderTemplate finished, took 0.001 sec
+Test run finished: 0 failed, 0 ignored, 2 total, 0.002s
+    Produced 0 nested tasks and 2 events.
+  Running TaskDef(AddressBookControllerTest, sbt.ForkMain$AnnotatedFingerscan@22e16c5f, false, [SuiteSelector])
+Test run started
+Test AddressBookControllerTest.getFriendTest started
+Read from stdout: Test AddressBookControllerTest.getFriendTest failed: javax.persistence.PersistenceException: java.sql.SQLException: HikariDataSource HikariDataSource (HikariPool-0) has been closed., took 0.064 sec
+Test AddressBookControllerTest.getFriendTest failed: javax.persistence.PersistenceException: java.sql.SQLException: HikariDataSource HikariDataSource (HikariPool-0) has been closed., took 0.064 sec
+Read from stdout: at com.avaje.ebeaninternal.server.transaction.TransactionManager.createQueryTransaction(TransactionManager.java:310)
+    at com.avaje.ebeaninternal.server.transaction.TransactionManager.createQueryTransaction(TransactionManager.java:310)
+Read from stdout: at com.avaje.ebeaninternal.server.core.DefaultServer.createQueryTransaction(DefaultServer.java:2068)
+    at com.avaje.ebeaninternal.server.core.DefaultServer.createQueryTransaction(DefaultServer.java:2068)
+Read from stdout: at com.avaje.ebeaninternal.server.core.OrmQueryRequest.initTransIfRequired(OrmQueryRequest.java:209)
+    at com.avaje.ebeaninternal.server.core.OrmQueryRequest.initTransIfRequired(OrmQueryRequest.java:209)
+Read from stdout: at com.avaje.ebeaninternal.server.core.DefaultServer.findId(DefaultServer.java:1143)
+    at com.avaje.ebeaninternal.server.core.DefaultServer.findId(DefaultServer.java:1143)
+Read from stdout: at com.avaje.ebeaninternal.server.core.DefaultServer.find(DefaultServer.java:1037)
+    at com.avaje.ebeaninternal.server.core.DefaultServer.find(DefaultServer.java:1037)
+Read from stdout: at com.avaje.ebeaninternal.server.core.DefaultServer.find(DefaultServer.java:1024)
+    at com.avaje.ebeaninternal.server.core.DefaultServer.find(DefaultServer.java:1024)
+Read from stdout: at com.avaje.ebean.Model$Find.byId(Model.java:556)
+    at com.avaje.ebean.Model$Find.byId(Model.java:556)
+Read from stdout: at commands.AddressBookCommands.getFriend(AddressBookCommands.java:42)
+    at commands.AddressBookCommands.getFriend(AddressBookCommands.java:42)
+Read from stdout: at AddressBookControllerTest.getFriendTest(AddressBookControllerTest.java:52)
+    at AddressBookControllerTest.getFriendTest(AddressBookControllerTest.java:52)
+Read from stdout: ...
+    ...
+Read from stdout: Caused by: java.sql.SQLException: HikariDataSource HikariDataSource (HikariPool-0) has been closed.
+Caused by: java.sql.SQLException: HikariDataSource HikariDataSource (HikariPool-0) has been closed.
+Read from stdout: at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:79)
+    at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:79)
+Read from stdout: at org.jdbcdslog.DataSourceProxyBase.getConnection(DataSourceProxyBase.java:45)
+    at org.jdbcdslog.DataSourceProxyBase.getConnection(DataSourceProxyBase.java:45)
+Read from stdout: at play.db.ebean.DefaultEbeanConfig$EbeanConfigParser$WrappingDatasource.getConnection(DefaultEbeanConfig.java:149)
+    at play.db.ebean.DefaultEbeanConfig$EbeanConfigParser$WrappingDatasource.getConnection(DefaultEbeanConfig.java:149)
+Read from stdout: at com.avaje.ebeaninternal.server.transaction.TransactionManager.createQueryTransaction(TransactionManager.java:292)
+    at com.avaje.ebeaninternal.server.transaction.TransactionManager.createQueryTransaction(TransactionManager.java:292)
+Read from stdout: ... 43 more
+    ... 43 more
+Test AddressBookControllerTest.getFriendTest finished, took 0.069 sec
+Test AddressBookControllerTest.unFriendTest started
+Read from stdout: Test AddressBookControllerTest.unFriendTest failed: null, took 0.018 sec
+Test AddressBookControllerTest.unFriendTest failed: null, took 0.018 sec
+Test AddressBookControllerTest.unFriendTest finished, took 0.018 sec
+Test AddressBookControllerTest.addFriendTest started
+Read from stdout: Test AddressBookControllerTest.addFriendTest failed: null, took 0.011 sec
+Test AddressBookControllerTest.addFriendTest failed: null, took 0.011 sec
+Test AddressBookControllerTest.addFriendTest finished, took 0.012 sec
+Test AddressBookControllerTest.editFriendTest started
+Read from stdout: Test AddressBookControllerTest.editFriendTest failed: javax.persistence.PersistenceException: java.sql.SQLException: HikariDataSource HikariDataSource (HikariPool-0) has been closed., took 0.014 sec
+Test AddressBookControllerTest.editFriendTest failed: javax.persistence.PersistenceException: java.sql.SQLException: HikariDataSource HikariDataSource (HikariPool-0) has been closed., took 0.014 sec
+Read from stdout: at com.avaje.ebeaninternal.server.transaction.TransactionManager.createQueryTransaction(TransactionManager.java:310)
+    at com.avaje.ebeaninternal.server.transaction.TransactionManager.createQueryTransaction(TransactionManager.java:310)
+Read from stdout: at com.avaje.ebeaninternal.server.core.DefaultServer.createQueryTransaction(DefaultServer.java:2068)
+    at com.avaje.ebeaninternal.server.core.DefaultServer.createQueryTransaction(DefaultServer.java:2068)
+Read from stdout: at com.avaje.ebeaninternal.server.core.OrmQueryRequest.initTransIfRequired(OrmQueryRequest.java:209)
+    at com.avaje.ebeaninternal.server.core.OrmQueryRequest.initTransIfRequired(OrmQueryRequest.java:209)
+Read from stdout: at com.avaje.ebeaninternal.server.core.DefaultServer.findId(DefaultServer.java:1143)
+    at com.avaje.ebeaninternal.server.core.DefaultServer.findId(DefaultServer.java:1143)
+Read from stdout: at com.avaje.ebeaninternal.server.core.DefaultServer.find(DefaultServer.java:1037)
+    at com.avaje.ebeaninternal.server.core.DefaultServer.find(DefaultServer.java:1037)
+Read from stdout: at com.avaje.ebeaninternal.server.core.DefaultServer.find(DefaultServer.java:1024)
+    at com.avaje.ebeaninternal.server.core.DefaultServer.find(DefaultServer.java:1024)
+Read from stdout: at com.avaje.ebean.Model$Find.byId(Model.java:556)
+    at com.avaje.ebean.Model$Find.byId(Model.java:556)
+Read from stdout: at commands.AddressBookCommands.getFriend(AddressBookCommands.java:42)
+    at commands.AddressBookCommands.getFriend(AddressBookCommands.java:42)
+Read from stdout: at AddressBookControllerTest.editFriendTest(AddressBookControllerTest.java:70)
+    at AddressBookControllerTest.editFriendTest(AddressBookControllerTest.java:70)
+Read from stdout: ...
+    ...
+Read from stdout: Caused by: java.sql.SQLException: HikariDataSource HikariDataSource (HikariPool-0) has been closed.
+Caused by: java.sql.SQLException: HikariDataSource HikariDataSource (HikariPool-0) has been closed.
+Read from stdout: at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:79)
+    at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:79)
+Read from stdout: at org.jdbcdslog.DataSourceProxyBase.getConnection(DataSourceProxyBase.java:45)
+    at org.jdbcdslog.DataSourceProxyBase.getConnection(DataSourceProxyBase.java:45)
+Read from stdout: at play.db.ebean.DefaultEbeanConfig$EbeanConfigParser$WrappingDatasource.getConnection(DefaultEbeanConfig.java:149)
+    at play.db.ebean.DefaultEbeanConfig$EbeanConfigParser$WrappingDatasource.getConnection(DefaultEbeanConfig.java:149)
+Read from stdout: at com.avaje.ebeaninternal.server.transaction.TransactionManager.createQueryTransaction(TransactionManager.java:292)
+    at com.avaje.ebeaninternal.server.transaction.TransactionManager.createQueryTransaction(TransactionManager.java:292)
+Read from stdout: ... 43 more
+    ... 43 more
+Test AddressBookControllerTest.editFriendTest finished, took 0.015 sec
+Test AddressBookControllerTest.getFriends started
+Read from stdout: Test AddressBookControllerTest.getFriends failed: javax.persistence.PersistenceException: java.sql.SQLException: HikariDataSource HikariDataSource (HikariPool-0) has been closed., took 0.025 sec
+Test AddressBookControllerTest.getFriends failed: javax.persistence.PersistenceException: java.sql.SQLException: HikariDataSource HikariDataSource (HikariPool-0) has been closed., took 0.025 sec
+Read from stdout: at com.avaje.ebeaninternal.server.transaction.TransactionManager.createQueryTransaction(TransactionManager.java:310)
+    at com.avaje.ebeaninternal.server.transaction.TransactionManager.createQueryTransaction(TransactionManager.java:310)
+Read from stdout: at com.avaje.ebeaninternal.server.core.DefaultServer.createQueryTransaction(DefaultServer.java:2068)
+    at com.avaje.ebeaninternal.server.core.DefaultServer.createQueryTransaction(DefaultServer.java:2068)
+Read from stdout: at com.avaje.ebeaninternal.server.core.OrmQueryRequest.initTransIfRequired(OrmQueryRequest.java:209)
+    at com.avaje.ebeaninternal.server.core.OrmQueryRequest.initTransIfRequired(OrmQueryRequest.java:209)
+Read from stdout: at com.avaje.ebeaninternal.server.core.DefaultServer.findList(DefaultServer.java:1402)
+    at com.avaje.ebeaninternal.server.core.DefaultServer.findList(DefaultServer.java:1402)
+Read from stdout: at com.avaje.ebeaninternal.server.querydefn.DefaultOrmQuery.findList(DefaultOrmQuery.java:1067)
+    at com.avaje.ebeaninternal.server.querydefn.DefaultOrmQuery.findList(DefaultOrmQuery.java:1067)
+Read from stdout: at com.avaje.ebean.Model$Find.findList(Model.java:657)
+    at com.avaje.ebean.Model$Find.findList(Model.java:657)
+Read from stdout: at com.avaje.ebean.Model$Find.all(Model.java:545)
+    at com.avaje.ebean.Model$Find.all(Model.java:545)
+Read from stdout: at commands.AddressBookCommands.getFriends(AddressBookCommands.java:37)
+    at commands.AddressBookCommands.getFriends(AddressBookCommands.java:37)
+Read from stdout: at AddressBookControllerTest.getFriends(AddressBookControllerTest.java:81)
+    at AddressBookControllerTest.getFriends(AddressBookControllerTest.java:81)
+Read from stdout: ...
+    ...
+Read from stdout: Caused by: java.sql.SQLException: HikariDataSource HikariDataSource (HikariPool-0) has been closed.
+Caused by: java.sql.SQLException: HikariDataSource HikariDataSource (HikariPool-0) has been closed.
+Read from stdout: at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:79)
+    at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:79)
+Read from stdout: at org.jdbcdslog.DataSourceProxyBase.getConnection(DataSourceProxyBase.java:45)
+    at org.jdbcdslog.DataSourceProxyBase.getConnection(DataSourceProxyBase.java:45)
+Read from stdout: at play.db.ebean.DefaultEbeanConfig$EbeanConfigParser$WrappingDatasource.getConnection(DefaultEbeanConfig.java:149)
+    at play.db.ebean.DefaultEbeanConfig$EbeanConfigParser$WrappingDatasource.getConnection(DefaultEbeanConfig.java:149)
+Read from stdout: at com.avaje.ebeaninternal.server.transaction.TransactionManager.createQueryTransaction(TransactionManager.java:292)
+    at com.avaje.ebeaninternal.server.transaction.TransactionManager.createQueryTransaction(TransactionManager.java:292)
+Read from stdout: ... 43 more
+    ... 43 more
+Test AddressBookControllerTest.getFriends finished, took 0.033 sec
+Test run finished: 5 failed, 0 ignored, 5 total, 0.156s
+    Produced 0 nested tasks and 5 events.
+Summary for JUnit not available.
+Read from stdout: Failed: Total 8, Failed 5, Errors 0, Passed 3
+Failed: Total 8, Failed 5, Errors 0, Passed 3
+Passed tests:
+	ApplicationTest
+	IntegrationTest
+Read from stdout: Failed tests:
+Failed tests:
+Read from stdout: 	AddressBookControllerTest
+	AddressBookControllerTest
+Read from stdout: (test:test) sbt.TestsFailedException: Tests unsuccessful
+(test:test) sbt.TestsFailedException: Tests unsuccessful
+Total time: 11 s, completed 19-Aug-2016 1:45:49 AM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@a32c86a, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 1 s, completed 19-Aug-2016 1:49:26 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 6
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@56f999f2, check cycles: false
+Total time: 0 s, completed 19-Aug-2016 1:49:26 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRun
+Evaluating tasks: compile:backgroundRun
+Running task... Cancel: sbt.server.ServerTaskCancellation@653adb63, check cycles: false
+Total time: 0 s, completed 19-Aug-2016 1:49:27 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/Users/Rue/Documents/workspace/Ngoni/}root/*:playForkConfig
+Evaluating tasks: *:playForkConfig
+Running task... Cancel: sbt.server.ServerTaskCancellation@7e41f64d, check cycles: false
+Total time: 0 s, completed 19-Aug-2016 1:49:30 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> root/playForkNotifyStart http://localhost:9000
+Evaluating tasks: *:playForkNotifyStart
+Running task... Cancel: sbt.server.ServerTaskCancellation@39d9b7b, check cycles: false
+Total time: 0 s, completed 19-Aug-2016 1:49:32 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@d0f3341, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 1 s, completed 19-Aug-2016 1:55:53 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 7
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@103fd779, check cycles: false
+Total time: 0 s, completed 19-Aug-2016 1:55:53 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRun
+Evaluating tasks: compile:backgroundRun
+Running task... Cancel: sbt.server.ServerTaskCancellation@6e3207a3, check cycles: false
+Total time: 0 s, completed 19-Aug-2016 1:55:53 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@74cc2805, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 1 s, completed 19-Aug-2016 1:55:55 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 7
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@3a61479c, check cycles: false
+Exception in thread "sbt-bg-threads-7" java.lang.Error: java.lang.InterruptedException: sleep interrupted
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1148)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at play.sbt.forkrun.PlayForkProcess$.timedWaitFor(PlayForkProcess.scala:80)
+	at play.sbt.forkrun.PlayForkProcess$.play$sbt$forkrun$PlayForkProcess$$stop$1(PlayForkProcess.scala:54)
+	at play.sbt.forkrun.PlayForkProcess$.run(PlayForkProcess.scala:70)
+	at play.sbt.forkrun.PlayForkProcess$.apply(PlayForkProcess.scala:35)
+	at play.sbt.forkrun.PlayForkRun$$anonfun$backgroundForkRunTask$1$$anonfun$apply$7$$anonfun$apply$8$$anonfun$apply$9.apply(PlayForkRun.scala:108)
+	at play.sbt.forkrun.PlayForkRun$$anonfun$backgroundForkRunTask$1$$anonfun$apply$7$$anonfun$apply$8$$anonfun$apply$9.apply(PlayForkRun.scala:107)
+	at sbt.BackgroundThreadPool$$anonfun$1.apply$mcV$sp(AbstractBackgroundJobService.scala:134)
+	at sbt.BackgroundThreadPool$BackgroundRunnable.run(AbstractBackgroundJobService.scala:68)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	... 2 more
+Total time: 0 s, completed 19-Aug-2016 1:55:55 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 8
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@ea56a0, check cycles: false
+Total time: 0 s, completed 19-Aug-2016 1:55:55 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRun
+Evaluating tasks: compile:backgroundRun
+Running task... Cancel: sbt.server.ServerTaskCancellation@6f3043ef, check cycles: false
+Total time: 0 s, completed 19-Aug-2016 1:55:55 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/Users/Rue/Documents/workspace/Ngoni/}root/*:playForkConfig
+Evaluating tasks: *:playForkConfig
+Running task... Cancel: sbt.server.ServerTaskCancellation@14975fca, check cycles: false
+Total time: 0 s, completed 19-Aug-2016 1:56:00 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> root/playForkNotifyStart http://localhost:9000
+Evaluating tasks: *:playForkNotifyStart
+Running task... Cancel: sbt.server.ServerTaskCancellation@350091ba, check cycles: false
+Total time: 0 s, completed 19-Aug-2016 1:56:02 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@1247ecbc, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 1 s, completed 19-Aug-2016 1:59:27 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 9
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@2e415119, check cycles: false
+Total time: 0 s, completed 19-Aug-2016 1:59:27 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRun
+Evaluating tasks: compile:backgroundRun
+Running task... Cancel: sbt.server.ServerTaskCancellation@6d959a5d, check cycles: false
+Total time: 0 s, completed 19-Aug-2016 1:59:28 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/Users/Rue/Documents/workspace/Ngoni/}root/*:playForkConfig
+Evaluating tasks: *:playForkConfig
+Running task... Cancel: sbt.server.ServerTaskCancellation@7b6e7cf, check cycles: false
+Total time: 0 s, completed 19-Aug-2016 1:59:32 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> root/playForkNotifyStart http://localhost:9000
+Evaluating tasks: *:playForkNotifyStart
+Running task... Cancel: sbt.server.ServerTaskCancellation@5955fd10, check cycles: false
+Total time: 0 s, completed 19-Aug-2016 1:59:33 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> test
+Evaluating tasks: test:test
+Running task... Cancel: sbt.server.ServerTaskCancellation@35ba54a9, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(/Users/Rue/Documents/workspace/Ngoni/conf/application.conf,/Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes/application.conf)
+	(/Users/Rue/Documents/workspace/Ngoni/conf/evolutions,/Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes/evolutions)
+	(/Users/Rue/Documents/workspace/Ngoni/conf/logback.xml,/Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes/logback.xml)
+	(/Users/Rue/Documents/workspace/Ngoni/conf/routes,/Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes/routes)
+	(/Users/Rue/Documents/workspace/Ngoni/conf/evolutions/default,/Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes/evolutions/default)
+	(/Users/Rue/Documents/workspace/Ngoni/conf/evolutions/default/1.sql,/Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes/evolutions/default/1.sql)
+
+Initial source changes: 
+	removed:Set(/Users/Rue/Documents/workspace/Ngoni/test/ApplicationTest.java)
+	added: Set()
+	modified: Set(/Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/Users/Rue/Documents/workspace/Ngoni/test/ApplicationTest.java, /Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/Users/Rue/Documents/workspace/Ngoni/test/ApplicationTest.java, /Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java)
+
+Recompiling all 2 sources: invalidated sources (2) exceeded 50.0% of all sources
+Read from stdout: Compiling 2 Java sources to /Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/test-classes...
+Compiling 2 Java sources to /Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/test-classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@4e5a9069 directly...
+Read from stdout: /Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java:37: illegal start of expression
+/Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java:37: illegal start of expression
+Read from stdout: /Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java:37: ';' expected
+/Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java:37: ';' expected
+Read from stdout: /Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java:38: ')' expected
+/Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java:38: ')' expected
+Read from stdout: /Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java:37: not a statement
+/Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java:37: not a statement
+Read from stdout: /Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java:38: not a statement
+/Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java:38: not a statement
+Read from stdout: /Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java:38: ';' expected
+/Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java:38: ';' expected
+Read from stdout: /Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java:42: ';' expected
+/Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java:42: ';' expected
+Read from stdout: (test:compileIncremental) javac returned nonzero exit code
+(test:compileIncremental) javac returned nonzero exit code
+Total time: 6 s, completed 19-Aug-2016 2:00:22 AM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@296d523b, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed 19-Aug-2016 2:00:39 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 10
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@6528310c, check cycles: false
+Total time: 0 s, completed 19-Aug-2016 2:00:39 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRun
+Evaluating tasks: compile:backgroundRun
+Running task... Cancel: sbt.server.ServerTaskCancellation@59e57040, check cycles: false
+Total time: 0 s, completed 19-Aug-2016 2:00:39 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/Users/Rue/Documents/workspace/Ngoni/}root/*:playForkConfig
+Evaluating tasks: *:playForkConfig
+Running task... Cancel: sbt.server.ServerTaskCancellation@68d4e214, check cycles: false
+Total time: 0 s, completed 19-Aug-2016 2:00:44 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> root/playForkNotifyStart http://localhost:9000
+Evaluating tasks: *:playForkNotifyStart
+Running task... Cancel: sbt.server.ServerTaskCancellation@19a18da5, check cycles: false
+Total time: 0 s, completed 19-Aug-2016 2:00:46 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> test
+Evaluating tasks: test:test
+Running task... Cancel: sbt.server.ServerTaskCancellation@26c15a94, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(/Users/Rue/Documents/workspace/Ngoni/conf/application.conf,/Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes/application.conf)
+	(/Users/Rue/Documents/workspace/Ngoni/conf/evolutions,/Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes/evolutions)
+	(/Users/Rue/Documents/workspace/Ngoni/conf/logback.xml,/Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes/logback.xml)
+	(/Users/Rue/Documents/workspace/Ngoni/conf/routes,/Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes/routes)
+	(/Users/Rue/Documents/workspace/Ngoni/conf/evolutions/default,/Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes/evolutions/default)
+	(/Users/Rue/Documents/workspace/Ngoni/conf/evolutions/default/1.sql,/Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/classes/evolutions/default/1.sql)
+
+Initial source changes: 
+	removed:Set(/Users/Rue/Documents/workspace/Ngoni/test/ApplicationTest.java)
+	added: Set()
+	modified: Set(/Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/Users/Rue/Documents/workspace/Ngoni/test/ApplicationTest.java, /Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/Users/Rue/Documents/workspace/Ngoni/test/ApplicationTest.java, /Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java)
+
+Recompiling all 2 sources: invalidated sources (2) exceeded 50.0% of all sources
+Read from stdout: Compiling 2 Java sources to /Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/test-classes...
+Compiling 2 Java sources to /Users/Rue/Documents/workspace/Ngoni/target/scala-2.11/test-classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@597647fa directly...
+Java compilation took 1.283558223 s
+Java analysis took 0.051977103 s
+Java compile + analysis took 1.365546559 s
+Invalidating /Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java...
+Invalidating (transitively) by inheritance from /Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java...
+Initial set of included nodes: Set(/Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java)
+Invalidated by transitive inheritance dependency: Set(/Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java)
+The /Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java source file has the following regular definitions changed:
+	AddressBookControllerTest.
+All member reference dependencies will be considered within this context.
+Name hashing optimization doesn't apply to non-Scala dependency: /Users/Rue/Documents/workspace/Ngoni/test/AddressBookControllerTest.java
+Invalidating /Users/Rue/Documents/workspace/Ngoni/test/ApplicationTest.java...
+Invalidating (transitively) by inheritance from /Users/Rue/Documents/workspace/Ngoni/test/ApplicationTest.java...
+Initial set of included nodes: Set(/Users/Rue/Documents/workspace/Ngoni/test/ApplicationTest.java)
+Invalidated by transitive inheritance dependency: Set(/Users/Rue/Documents/workspace/Ngoni/test/ApplicationTest.java)
+The /Users/Rue/Documents/workspace/Ngoni/test/ApplicationTest.java source file has the following regular definitions changed:
+	notify, wait, equals, simpleCheck, notifyAll, ApplicationTest, <init>, toString, getClass, renderTemplate, hashCode.
+All member reference dependencies will be considered within this context.
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	
+Framework implementation 'org.scalacheck.ScalaCheckFramework' not present.
+Framework implementation 'org.specs2.runner.Specs2Framework' not present.
+Framework implementation 'org.specs2.runner.SpecsFramework' not present.
+Framework implementation 'org.specs.runner.SpecsFramework' not present.
+Framework implementation 'org.scalatest.tools.Framework' not present.
+Framework implementation 'org.scalatest.tools.ScalaTestFramework' not present.
+Subclass fingerprints: List((junit.framework.TestCase,false,com.novocode.junit.JUnit3Fingerprint@73f7ebfe))
+Annotation fingerprints: List((org.junit.runner.RunWith,false,com.novocode.junit.RunWithFingerprint@547c6d2c), (org.junit.Test,false,com.novocode.junit.JUnitFingerprint@1b4c942a))
+Forking tests - parallelism = false
+Create a single-thread test executor
+Runner for com.novocode.junit.JUnitFramework produced 2 initial tasks for 2 tests.
+  Running TaskDef(IntegrationTest, sbt.ForkMain$AnnotatedFingerscan@4cc4f3f5, false, [SuiteSelector])
+Test run started
+Test IntegrationTest.test started
+[info] application - Creating Pool for datasource 'default'
+[error] o.j.StatementLogger - java.sql.Statement.executeQuery: select id, hash, apply_script, revert_script, state, last_problem from play_evolutions where state like 'applying_%';
+throws exception: org.h2.jdbc.JdbcSQLException: Table "PLAY_EVOLUTIONS" not found; SQL statement:
+select id, hash, apply_script, revert_script, state, last_problem from play_evolutions where state like 'applying_%' [42102-191]
+org.h2.jdbc.JdbcSQLException: Table "PLAY_EVOLUTIONS" not found; SQL statement:
+select id, hash, apply_script, revert_script, state, last_problem from play_evolutions where state like 'applying_%' [42102-191]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.command.Parser.readTableOrView(Parser.java:5349)
+	at org.h2.command.Parser.readTableFilter(Parser.java:1245)
+	at org.h2.command.Parser.parseSelectSimpleFromPart(Parser.java:1884)
+	at org.h2.command.Parser.parseSelectSimple(Parser.java:2032)
+	at org.h2.command.Parser.parseSelectSub(Parser.java:1878)
+	at org.h2.command.Parser.parseSelectUnion(Parser.java:1699)
+	at org.h2.command.Parser.parseSelect(Parser.java:1687)
+[warn] c.g.h.IncorrectnessListenerImpl - Obsolete content type encountered: 'text/javascript'.
+[info] application - Shutting down connection pool.
+Test IntegrationTest.test finished, took 8.129 sec
+Test run finished: 0 failed, 0 ignored, 1 total, 8.137s
+    Produced 0 nested tasks and 1 events.
+  Running TaskDef(AddressBookControllerTest, sbt.ForkMain$AnnotatedFingerscan@5f56d6ad, false, [SuiteSelector])
+Test run started
+Read from stdout: Test AddressBookControllerTest ignored
+Test AddressBookControllerTest ignored
+Test run finished: 0 failed, 1 ignored, 0 total, 0.001s
+    Produced 0 nested tasks and 1 events.
+Summary for JUnit not available.
+Read from stdout: Passed: Total 2, Failed 0, Errors 0, Passed 1, Skipped 1
+Passed: Total 2, Failed 0, Errors 0, Passed 1, Skipped 1
+Passed tests:
+	AddressBookControllerTest
+	IntegrationTest
+Total time: 12 s, completed 19-Aug-2016 2:01:03 AM
+> server-post-command-cleanup
+> server-handle-next-server-request

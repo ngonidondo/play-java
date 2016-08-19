@@ -1,0 +1,19 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# A controller showing the home page
+GET     /                           controllers.HomeController.index
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
+
+POST /addFriend                     controllers.AddressBookController.addFriend
+
+POST /editFriend                    controllers.AddressBookController.editFriend(friendId:String)
+
+GET /getFriend                      controllers.AddressBookController.getFriend(friendId:String)
+
+GET /allFriends                     controllers.AddressBookController.getFriendsList
+
+GET /unFriend                       controllers.AddressBookController.unFriend(friendId:String)

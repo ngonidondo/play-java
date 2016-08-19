@@ -1,0 +1,85 @@
+@*
+ * This template takes a single argument, a String containing a
+ * message to display.
+ *@
+@(message: String)
+
+@*
+ * Call the `main` template with two arguments. The first
+ * argument is a `String` with the title of the page, the second
+ * argument is an `Html` object containing the body of the page.
+ *@
+@main("Friends List") {
+
+    <div id="titleMessage"> @message</div>
+    <div id="friendsListContainer">
+        <div>Available Friends</div>
+        <ul id="friendsList" ></ul>
+        <button id="addFriendBtn"> Add Friend</button>
+    </div>
+    <div id="contentContainer">
+        <div id='addFriend'>
+            <form action="@routes.AddressBookController.addFriend()" method="post">
+            <div>Add New Friend</div>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>Email</td>
+                        <td><input type="text" name="email"/></td>
+                    </tr>
+                    <tr>
+                        <td>First Name</td>
+                        <td><input type="text" name="fname"/></td>
+                    </tr>
+                    <tr>
+                        <td>Last Name</td>
+                        <td><input type="text" name="lname"/></td>
+                    </tr>
+                    <tr>
+                        <td>Photo Url</td>
+                        <td><input type="text" id="addPhotoURL" name="photoURL"/></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><img src="" height="42" width="42"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><button type="submit">Save</button></td>
+                    </tr>
+                </tbody>
+            </table>
+            </form>
+        </div>
+        <div id='editFriend'>
+            <form action="/editFriend?" method="post">
+            <div><img src="" height="100" width="100"></div>
+            <div>Edit Friend Details</div>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>Email</td>
+                        <td><input type="text" id="editEmail" name="email"/></td>
+                    </tr>
+                    <tr>
+                        <td>First Name</td>
+                        <td><input type="text" id="editFname" name="fname"/></td>
+                    </tr>
+                    <tr>
+                        <td>Last Name</td>
+                        <td><input type="text" id="editLname" name="lname"/></td>
+                    </tr>
+                    <tr>
+                        <td>Photo Url</td>
+                        <td><input type="text" id="editPhotoURL" name="photoURL"/></td>
+                    </tr>
+                    <tr>
+                        <td><a id='unFriend' href="/unFriend?">Delete Friend</a></td>
+                        <td><button type="submit">Update</button></td>
+                    </tr>
+                </tbody>
+            </table>
+            </form>
+        </div>
+    </div>
+}
